@@ -232,7 +232,7 @@ const Dashboard = () => {
     <div className="min-h-screen bg-gray-100 py-8 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-8">
-          <h1 className="text-2xl font-bold text-gray-900">Open Source Repository Dashboard</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Christian Open Source Projects Dashboard</h1>
           <div className="text-sm text-gray-600">
             Showing {startIndex + 1}-{Math.min(endIndex, repoData.repositories.length)} of{' '}
             {repoData.repositories.length} repositories
