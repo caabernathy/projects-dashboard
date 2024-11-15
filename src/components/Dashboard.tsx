@@ -60,8 +60,18 @@ const OwnerCard = ({ owner }: { owner: OwnerInfo }) => {
               </div>
             )}
           </div>
-          {(owner.social_links.website || owner.social_links.twitter) && (
+          {(owner.social_links.website || owner.social_links.twitter || owner.email) && (
             <div className="flex gap-4 mt-2">
+              {owner.email && (
+                <a
+                  href={`mailto:${owner.email}`}
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                >
+                  <ExternalLink size={14} />
+                  Email
+                </a>
+              )}
               {owner.social_links.website && (
                 <a
                   href={owner.social_links.website}
