@@ -1,8 +1,9 @@
 {
-  "timestamp": "20241115_141700",
-  "total_repositories": 76,
-  "successful_analyses": 76,
-  "failed_analyses": 0,
+  "timestamp": "20241115_175046",
+  "total_repositories": 107,
+  "successful_analyses": 92,
+  "failed_analyses": 1,
+  "skipped_analyses": 14,
   "repositories": [
     {
       "platform": "github",
@@ -66,7 +67,7 @@
           "open_count": 25,
           "closed_count": 75
         },
-        "labels": ["depfu", "dependencies"],
+        "labels": ["dependencies", "depfu"],
         "features": {
           "has_assignees": false,
           "has_milestones": false
@@ -182,21 +183,21 @@
           "closed_count": 34
         },
         "labels": [
-          "Affects: Alpha",
-          "Prio: High",
-          "Module issue",
+          "Type: Modules",
           "Type: Discussion",
-          "Sponsor me!",
           "TTS",
           "Prio: Minor",
+          "Confusing feature",
+          "Type: Task",
+          "Prio: High",
+          "Multiple issues",
           "Audio (non-TTS)",
+          "Sponsor me!",
           "Type: Bug",
           "Type: Feature",
-          "Type: Support",
-          "Type: Modules",
-          "Type: Task",
-          "Confusing feature",
-          "Multiple issues"
+          "Affects: Alpha",
+          "Module issue",
+          "Type: Support"
         ],
         "features": {
           "has_assignees": true,
@@ -398,7 +399,7 @@
           "open_count": 26,
           "closed_count": 74
         },
-        "labels": ["size-small", "size-medium"],
+        "labels": ["size-medium", "size-small"],
         "features": {
           "has_assignees": true,
           "has_milestones": false
@@ -502,7 +503,7 @@
         "followers": 1,
         "following": 16,
         "created_at": "2018-06-22T19:45:41Z",
-        "updated_at": "2024-09-22T15:38:08Z",
+        "updated_at": "2024-11-15T12:11:28Z",
         "social_links": {
           "twitter": null,
           "website": "https://thotlm.org"
@@ -609,18 +610,18 @@
           "closed_count": 91
         },
         "labels": [
-          "javascript",
-          "enhancement",
-          "question",
-          "copy",
           "ready",
-          "python",
           "on hold",
+          "bug",
+          "dependencies",
+          "python",
+          "discussion",
+          "javascript",
           "feature",
           "wontfix",
-          "dependencies",
-          "bug",
-          "discussion"
+          "copy",
+          "question",
+          "enhancement"
         ],
         "features": {
           "has_assignees": true,
@@ -685,86 +686,6 @@
       "original_name": "apostello",
       "original_description": "SMS communication software for your church",
       "original_url": "https://github.com/monty5811/apostello/"
-    },
-    {
-      "platform": "gitlab",
-      "metadata": {
-        "name": "app",
-        "owner": "remem-me",
-        "description": "Open Source client for the popular Bible memory app Remember Me, using Flutter",
-        "url": "https://gitlab.com/remem-me/app",
-        "created_at": "2019-08-23T15:37:30.832Z",
-        "last_updated": "2024-11-15T07:17:02.789Z",
-        "default_branch": "develop",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "",
-        "license": "Unknown"
-      },
-      "metrics": {
-        "stars": 7,
-        "forks": 3,
-        "open_issues": 0,
-        "contributors": {
-          "total_count": 11,
-          "top_contributors": [
-            "Jes\u00fas  Erro",
-            "joejoe2016",
-            "\u674e\u4fca\u4f51",
-            "Dorottya Antal",
-            "Peter Schaffl\u00fctzel"
-          ]
-        }
-      },
-      "owner_info": {
-        "type": "group",
-        "name": "remem.me",
-        "display_name": "remem.me",
-        "url": "https://gitlab.com/remem-me",
-        "avatar_url": "https://gitlab.com/uploads/-/system/group/avatar/5909371/app_icon_win358.png",
-        "description": "Projects related to the Bible memorization app Remember Me",
-        "location": "",
-        "email": "",
-        "website": "",
-        "public_repos": 0,
-        "created_at": "2019-08-23T15:25:01.809Z",
-        "updated_at": "",
-        "members_count": 11,
-        "repos_count": null,
-        "social_links": {
-          "website": null,
-          "twitter": null
-        }
-      },
-      "issues": {
-        "summary": {
-          "total_count": 0,
-          "open_count": 0,
-          "closed_count": 0
-        },
-        "labels": [],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 0,
-          "average_comments": 0
-        },
-        "recent_activity": []
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 20
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Remember Me",
-      "original_description": "The free, fun, and effective way to memorize Bible verses",
-      "original_url": "https://gitlab.com/remem-me/app"
     },
     {
       "platform": "github",
@@ -1165,7 +1086,7 @@
           "open_count": 5,
           "closed_count": 27
         },
-        "labels": ["enhancement", "documentation", "bug", "v0.1", "help wanted"],
+        "labels": ["bug", "v0.1", "documentation", "enhancement", "help wanted"],
         "features": {
           "has_assignees": true,
           "has_milestones": false
@@ -1280,7 +1201,7 @@
           "open_count": 13,
           "closed_count": 70
         },
-        "labels": ["enhancement", "improvement", "Feature To Add", "bug", "Ideas/Concepts"],
+        "labels": ["bug", "improvement", "Feature To Add", "enhancement", "Ideas/Concepts"],
         "features": {
           "has_assignees": true,
           "has_milestones": false
@@ -1344,254 +1265,6 @@
       "original_name": "Believers Sword",
       "original_description": "Simple application that helps you study Bible with extra features",
       "original_url": "https://github.com/Bible-Projects/believers-sword-next"
-    },
-    {
-      "platform": "github",
-      "metadata": {
-        "name": "bible_api",
-        "owner": "seven1m",
-        "description": "Ruby web app that serves JSON API for open and public domain bibles",
-        "url": "https://github.com/seven1m/bible_api",
-        "created_at": "2014-07-07T02:40:38Z",
-        "last_updated": "2024-11-13T02:08:27Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "Ruby",
-        "license": "MIT License"
-      },
-      "metrics": {
-        "stars": 580,
-        "forks": 105,
-        "open_issues": 10,
-        "contributors": {
-          "total_count": 6,
-          "top_contributors": ["seven1m", "dependabot[bot]", "gazayas", "bonniesimon", "joshdance"]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Tim Morgan",
-        "display_name": "Tim Morgan",
-        "url": "https://github.com/seven1m",
-        "avatar_url": "https://avatars.githubusercontent.com/u/669?v=4",
-        "bio": "I \u2764\ufe0f Ruby. I\u2019m also making my own Ruby called Natalie. You know, for fun!",
-        "location": "Oklahoma, USA",
-        "email": "tim@timmorgan.org",
-        "website": "https://timmorgan.dev",
-        "company": null,
-        "public_repos": 118,
-        "followers": 747,
-        "following": 326,
-        "created_at": "2008-02-23T06:10:43Z",
-        "updated_at": "2024-10-25T21:57:47Z",
-        "social_links": {
-          "twitter": "https://twitter.com/timmrgn",
-          "website": "https://timmorgan.dev"
-        },
-        "hireable": null,
-        "public_gists": 106,
-        "twitter": "timmrgn",
-        "recent_activity_count": 30,
-        "repos_count": 30
-      },
-      "issues": {
-        "summary": {
-          "total_count": 100,
-          "open_count": 10,
-          "closed_count": 90
-        },
-        "labels": ["enhancement", "bug", "duplicate", "dependencies"],
-        "features": {
-          "has_assignees": true,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 72,
-          "average_comments": 1.49
-        },
-        "recent_activity": [
-          {
-            "id": 108,
-            "title": "Bump puma from 6.4.2 to 6.4.3",
-            "state": "closed",
-            "created_at": "2024-09-20T14:51:13Z",
-            "updated_at": "2024-09-20T14:56:02Z",
-            "author": "dependabot[bot]"
-          },
-          {
-            "id": 107,
-            "title": "Random verses api",
-            "state": "closed",
-            "created_at": "2024-09-17T07:51:37Z",
-            "updated_at": "2024-09-22T04:26:14Z",
-            "author": "shedrack-okunda"
-          },
-          {
-            "id": 106,
-            "title": "Could you please add support for Traditional Chinese?",
-            "state": "open",
-            "created_at": "2024-09-16T23:58:56Z",
-            "updated_at": "2024-09-17T03:21:53Z",
-            "author": "RayChen1996"
-          },
-          {
-            "id": 105,
-            "title": "alguns livros nao estao funcionando no codigo o de salmos  e apocalipse por exemplo",
-            "state": "closed",
-            "created_at": "2024-07-08T23:04:50Z",
-            "updated_at": "2024-07-09T20:45:58Z",
-            "author": "Alineeey"
-          },
-          {
-            "id": 104,
-            "title": "Poderia ter um endpoint que mostrasse os livros da b\u00edblia",
-            "state": "closed",
-            "created_at": "2024-06-26T18:52:05Z",
-            "updated_at": "2024-06-26T19:03:29Z",
-            "author": "valdirsantos714"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 20
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "bible_api",
-      "original_description": "Ruby web app that serves JSON API for open and public domain Bibles",
-      "original_url": "https://github.com/seven1m/bible_api"
-    },
-    {
-      "platform": "github",
-      "metadata": {
-        "name": "bible_databases",
-        "owner": "scrollmapper",
-        "description": "Bible versions and cross-reference databases.",
-        "url": "https://github.com/scrollmapper/bible_databases",
-        "created_at": "2014-01-09T09:59:21Z",
-        "last_updated": "2024-11-14T22:06:06Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "Python",
-        "license": "MIT License"
-      },
-      "metrics": {
-        "stars": 1030,
-        "forks": 355,
-        "open_issues": 0,
-        "contributors": {
-          "total_count": 17,
-          "top_contributors": [
-            "scrollmapper",
-            "LeoBlanchette",
-            "thesnarky1",
-            "andrewwippler",
-            "dansiemens"
-          ]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Support",
-        "display_name": "Support",
-        "url": "https://github.com/scrollmapper",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6357374?v=4",
-        "bio": null,
-        "location": null,
-        "email": null,
-        "website": "",
-        "company": null,
-        "public_repos": 3,
-        "followers": 57,
-        "following": 1,
-        "created_at": "2014-01-09T08:23:30Z",
-        "updated_at": "2024-11-04T22:38:06Z",
-        "social_links": {
-          "twitter": "https://twitter.com/scrollmapper",
-          "website": ""
-        },
-        "hireable": null,
-        "public_gists": 0,
-        "twitter": "scrollmapper",
-        "recent_activity_count": 0,
-        "repos_count": 3
-      },
-      "issues": {
-        "summary": {
-          "total_count": 91,
-          "open_count": 0,
-          "closed_count": 91
-        },
-        "labels": [],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 61,
-          "average_comments": 1.4945054945054945
-        },
-        "recent_activity": [
-          {
-            "id": 91,
-            "title": "All the things.",
-            "state": "closed",
-            "created_at": "2024-11-13T23:50:08Z",
-            "updated_at": "2024-11-13T23:52:02Z",
-            "author": "Greeble3D"
-          },
-          {
-            "id": 90,
-            "title": "Delete discover_packages.py",
-            "state": "closed",
-            "created_at": "2024-11-12T19:40:55Z",
-            "updated_at": "2024-11-12T19:41:15Z",
-            "author": "LeoBlanchette"
-          },
-          {
-            "id": 89,
-            "title": "Update 4_adding_texts.md",
-            "state": "closed",
-            "created_at": "2024-11-09T22:49:13Z",
-            "updated_at": "2024-11-09T22:49:20Z",
-            "author": "LeoBlanchette"
-          },
-          {
-            "id": 88,
-            "title": "2025",
-            "state": "closed",
-            "created_at": "2024-11-09T22:39:01Z",
-            "updated_at": "2024-11-09T22:39:15Z",
-            "author": "LeoBlanchette"
-          },
-          {
-            "id": 87,
-            "title": "Update integrity checks.",
-            "state": "closed",
-            "created_at": "2024-11-09T20:22:40Z",
-            "updated_at": "2024-11-09T20:22:47Z",
-            "author": "LeoBlanchette"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 35
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "bible_databases",
-      "original_description": "Bible versions and cross-reference databases",
-      "original_url": "https://github.com/scrollmapper/bible_databases"
     },
     {
       "platform": "github",
@@ -1832,12 +1505,343 @@
     {
       "platform": "github",
       "metadata": {
+        "name": "bible-helper",
+        "owner": "genu",
+        "description": null,
+        "url": "https://github.com/genu/bible-helper",
+        "created_at": "2018-04-06T04:33:49Z",
+        "last_updated": "2023-04-17T10:48:44Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "JavaScript",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 5,
+        "forks": 5,
+        "open_issues": 2,
+        "contributors": {
+          "total_count": 2,
+          "top_contributors": ["genu", "pkayokay"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Eugen Istoc",
+        "display_name": "Eugen Istoc",
+        "url": "https://github.com/genu",
+        "avatar_url": "https://avatars.githubusercontent.com/u/928780?v=4",
+        "bio": "Full-time software engineer, open source advocate, lay theologian, part-time soccer, fitness enthusiast, Christian.",
+        "location": "Atlanta, Washington DC",
+        "email": null,
+        "website": "http://www.eugenistoc.com",
+        "company": "AT&T, Lockheed Martin",
+        "public_repos": 191,
+        "followers": 55,
+        "following": 63,
+        "created_at": "2011-07-20T20:48:53Z",
+        "updated_at": "2024-11-14T19:10:48Z",
+        "social_links": {
+          "twitter": null,
+          "website": "http://www.eugenistoc.com"
+        },
+        "hireable": true,
+        "public_gists": 3,
+        "twitter": null,
+        "recent_activity_count": 30,
+        "repos_count": 30
+      },
+      "issues": {
+        "summary": {
+          "total_count": 5,
+          "open_count": 2,
+          "closed_count": 3
+        },
+        "labels": ["bug"],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0.0
+        },
+        "recent_activity": [
+          {
+            "id": 5,
+            "title": "Configure Renovate",
+            "state": "open",
+            "created_at": "2022-09-30T18:38:01Z",
+            "updated_at": "2024-01-15T17:54:28Z",
+            "author": "renovate[bot]"
+          },
+          {
+            "id": 4,
+            "title": "Text Commands do not work - copy, paste, select all",
+            "state": "open",
+            "created_at": "2018-10-14T21:29:16Z",
+            "updated_at": "2018-10-15T00:44:04Z",
+            "author": "pkayokay"
+          },
+          {
+            "id": 3,
+            "title": "Keyboard shortcut toggle",
+            "state": "closed",
+            "created_at": "2018-04-07T22:53:00Z",
+            "updated_at": "2018-04-07T22:53:48Z",
+            "author": "pkayokay"
+          },
+          {
+            "id": 2,
+            "title": "Token template literal",
+            "state": "closed",
+            "created_at": "2018-04-07T22:27:47Z",
+            "updated_at": "2018-04-07T22:28:03Z",
+            "author": "pkayokay"
+          },
+          {
+            "id": 1,
+            "title": "Add pug, node-sass and sass-loader to dev dependencies",
+            "state": "closed",
+            "created_at": "2018-04-07T22:10:22Z",
+            "updated_at": "2018-04-07T22:11:54Z",
+            "author": "pkayokay"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Bible Helper",
+      "original_description": "Simple scripture reference lookup tool",
+      "original_url": "https://github.com/genu/bible-helper"
+    },
+    {
+      "platform": "gitlab",
+      "metadata": {
+        "name": "bible-verse",
+        "owner": "robertmermet",
+        "description": "",
+        "url": "https://gitlab.com/robertmermet/bible-verse",
+        "created_at": "2023-11-03T14:08:09.118Z",
+        "last_updated": "2024-06-24T14:39:43.145Z",
+        "default_branch": "main",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 1,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["robertmermet"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Robert Mermet",
+        "display_name": "Robert Mermet",
+        "url": "https://gitlab.com/robertmermet",
+        "avatar_url": "https://secure.gravatar.com/avatar/0fca551e985b8502b1011c68da93e7b85f705999885fe16982b7b9821e1da533?s=80&d=identicon",
+        "bio": "",
+        "location": "",
+        "email": "",
+        "website": "",
+        "company": "",
+        "public_repos": 0,
+        "followers": null,
+        "following": null,
+        "created_at": "",
+        "updated_at": "",
+        "social_links": {
+          "website": null,
+          "twitter": null
+        },
+        "hireable": null,
+        "public_gists": null,
+        "twitter": null,
+        "recent_activity_count": null,
+        "repos_count": null
+      },
+      "issues": {
+        "summary": {
+          "total_count": 1,
+          "open_count": 1,
+          "closed_count": 0
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0.0
+        },
+        "recent_activity": [
+          {
+            "id": 1,
+            "title": "Add License",
+            "state": "opened",
+            "created_at": "2024-03-12T04:09:44.382Z",
+            "updated_at": "2024-03-12T04:09:44.382Z",
+            "author": "meichthys"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 16
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Bible Verse",
+      "original_description": "Displays a selected Bible verse, or verses, from the KJV",
+      "original_url": "https://gitlab.com/robertmermet/bible-verse"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "bible_api",
+        "owner": "seven1m",
+        "description": "Ruby web app that serves JSON API for open and public domain bibles",
+        "url": "https://github.com/seven1m/bible_api",
+        "created_at": "2014-07-07T02:40:38Z",
+        "last_updated": "2024-11-13T02:08:27Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Ruby",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 580,
+        "forks": 105,
+        "open_issues": 10,
+        "contributors": {
+          "total_count": 6,
+          "top_contributors": ["seven1m", "dependabot[bot]", "gazayas", "bonniesimon", "joshdance"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Tim Morgan",
+        "display_name": "Tim Morgan",
+        "url": "https://github.com/seven1m",
+        "avatar_url": "https://avatars.githubusercontent.com/u/669?v=4",
+        "bio": "I \u2764\ufe0f Ruby. I\u2019m also making my own Ruby called Natalie. You know, for fun!",
+        "location": "Oklahoma, USA",
+        "email": "tim@timmorgan.org",
+        "website": "https://timmorgan.dev",
+        "company": null,
+        "public_repos": 118,
+        "followers": 747,
+        "following": 327,
+        "created_at": "2008-02-23T06:10:43Z",
+        "updated_at": "2024-10-25T21:57:47Z",
+        "social_links": {
+          "twitter": "https://twitter.com/timmrgn",
+          "website": "https://timmorgan.dev"
+        },
+        "hireable": null,
+        "public_gists": 106,
+        "twitter": "timmrgn",
+        "recent_activity_count": 30,
+        "repos_count": 30
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 10,
+          "closed_count": 90
+        },
+        "labels": ["bug", "dependencies", "enhancement", "duplicate"],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 72,
+          "average_comments": 1.49
+        },
+        "recent_activity": [
+          {
+            "id": 108,
+            "title": "Bump puma from 6.4.2 to 6.4.3",
+            "state": "closed",
+            "created_at": "2024-09-20T14:51:13Z",
+            "updated_at": "2024-09-20T14:56:02Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "id": 107,
+            "title": "Random verses api",
+            "state": "closed",
+            "created_at": "2024-09-17T07:51:37Z",
+            "updated_at": "2024-09-22T04:26:14Z",
+            "author": "shedrack-okunda"
+          },
+          {
+            "id": 106,
+            "title": "Could you please add support for Traditional Chinese?",
+            "state": "open",
+            "created_at": "2024-09-16T23:58:56Z",
+            "updated_at": "2024-09-17T03:21:53Z",
+            "author": "RayChen1996"
+          },
+          {
+            "id": 105,
+            "title": "alguns livros nao estao funcionando no codigo o de salmos  e apocalipse por exemplo",
+            "state": "closed",
+            "created_at": "2024-07-08T23:04:50Z",
+            "updated_at": "2024-07-09T20:45:58Z",
+            "author": "Alineeey"
+          },
+          {
+            "id": 104,
+            "title": "Poderia ter um endpoint que mostrasse os livros da b\u00edblia",
+            "state": "closed",
+            "created_at": "2024-06-26T18:52:05Z",
+            "updated_at": "2024-06-26T19:03:29Z",
+            "author": "valdirsantos714"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "bible_api",
+      "original_description": "Ruby web app that serves JSON API for open and public domain Bibles",
+      "original_url": "https://github.com/seven1m/bible_api"
+    },
+    {
+      "platform": "github",
+      "metadata": {
         "name": "bible-api",
         "owner": "HelloAOLab",
         "description": "The Bible as an easy-to-use API.",
         "url": "https://github.com/HelloAOLab/bible-api",
         "created_at": "2022-11-30T04:41:36Z",
-        "last_updated": "2024-11-06T19:19:42Z",
+        "last_updated": "2024-11-15T21:42:08Z",
         "default_branch": "main",
         "is_archived": false,
         "is_fork": false,
@@ -1933,7 +1937,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 143
+          "total_commits_last_year": 155
         },
         "repository_activity": {
           "last_updated": null,
@@ -1943,6 +1947,133 @@
       "original_name": "bible-api",
       "original_description": "The Bible as an easy-to-use AP",
       "original_url": "https://github.com/HelloAOLab/bible-api"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "bible_databases",
+        "owner": "scrollmapper",
+        "description": "Bible versions and cross-reference databases.",
+        "url": "https://github.com/scrollmapper/bible_databases",
+        "created_at": "2014-01-09T09:59:21Z",
+        "last_updated": "2024-11-15T18:26:13Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Python",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 1031,
+        "forks": 355,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 17,
+          "top_contributors": [
+            "scrollmapper",
+            "LeoBlanchette",
+            "thesnarky1",
+            "andrewwippler",
+            "dansiemens"
+          ]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Support",
+        "display_name": "Support",
+        "url": "https://github.com/scrollmapper",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6357374?v=4",
+        "bio": null,
+        "location": null,
+        "email": null,
+        "website": "",
+        "company": null,
+        "public_repos": 3,
+        "followers": 57,
+        "following": 1,
+        "created_at": "2014-01-09T08:23:30Z",
+        "updated_at": "2024-11-04T22:38:06Z",
+        "social_links": {
+          "twitter": "https://twitter.com/scrollmapper",
+          "website": ""
+        },
+        "hireable": null,
+        "public_gists": 0,
+        "twitter": "scrollmapper",
+        "recent_activity_count": 0,
+        "repos_count": 3
+      },
+      "issues": {
+        "summary": {
+          "total_count": 91,
+          "open_count": 0,
+          "closed_count": 91
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 61,
+          "average_comments": 1.4945054945054945
+        },
+        "recent_activity": [
+          {
+            "id": 91,
+            "title": "All the things.",
+            "state": "closed",
+            "created_at": "2024-11-13T23:50:08Z",
+            "updated_at": "2024-11-13T23:52:02Z",
+            "author": "Greeble3D"
+          },
+          {
+            "id": 90,
+            "title": "Delete discover_packages.py",
+            "state": "closed",
+            "created_at": "2024-11-12T19:40:55Z",
+            "updated_at": "2024-11-12T19:41:15Z",
+            "author": "LeoBlanchette"
+          },
+          {
+            "id": 89,
+            "title": "Update 4_adding_texts.md",
+            "state": "closed",
+            "created_at": "2024-11-09T22:49:13Z",
+            "updated_at": "2024-11-09T22:49:20Z",
+            "author": "LeoBlanchette"
+          },
+          {
+            "id": 88,
+            "title": "2025",
+            "state": "closed",
+            "created_at": "2024-11-09T22:39:01Z",
+            "updated_at": "2024-11-09T22:39:15Z",
+            "author": "LeoBlanchette"
+          },
+          {
+            "id": 87,
+            "title": "Update integrity checks.",
+            "state": "closed",
+            "created_at": "2024-11-09T20:22:40Z",
+            "updated_at": "2024-11-09T20:22:47Z",
+            "author": "LeoBlanchette"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "bible_databases",
+      "original_description": "Bible versions and cross-reference databases",
+      "original_url": "https://github.com/scrollmapper/bible_databases"
     },
     {
       "platform": "github",
@@ -2052,86 +2183,6 @@
     {
       "platform": "github",
       "metadata": {
-        "name": "bible-cross-reference-json",
-        "owner": "josephilipraja",
-        "description": "Bible Verses - Cross Reference (JSON) : There are total of 31,102 verses in 32 JSON files, cross referenced to as many as possible, Reference credit goes to SoulLiberty",
-        "url": "https://github.com/josephilipraja/bible-cross-reference-json",
-        "created_at": "2014-01-20T16:10:10Z",
-        "last_updated": "2024-10-07T20:00:28Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": null,
-        "license": "GNU General Public License v2.0"
-      },
-      "metrics": {
-        "stars": 26,
-        "forks": 10,
-        "open_issues": 0,
-        "contributors": {
-          "total_count": 1,
-          "top_contributors": ["josephilipraja"]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Jose Philip Raja",
-        "display_name": "Jose Philip Raja",
-        "url": "https://github.com/josephilipraja",
-        "avatar_url": "https://avatars.githubusercontent.com/u/955799?v=4",
-        "bio": "Founder @CreaveLabs ",
-        "location": "Pathanamthitta, Kerala - India",
-        "email": "mail@josephilipraja.com",
-        "website": "http://www.josephilipraja.com",
-        "company": "CreaveLabs IT Solutions LLP",
-        "public_repos": 18,
-        "followers": 6,
-        "following": 10,
-        "created_at": "2011-08-03T05:41:19Z",
-        "updated_at": "2020-11-08T20:52:42Z",
-        "social_links": {
-          "twitter": null,
-          "website": "http://www.josephilipraja.com"
-        },
-        "hireable": true,
-        "public_gists": 3,
-        "twitter": null,
-        "recent_activity_count": 0,
-        "repos_count": 18
-      },
-      "issues": {
-        "summary": {
-          "total_count": 0,
-          "open_count": 0,
-          "closed_count": 0
-        },
-        "labels": [],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 0,
-          "average_comments": 0
-        },
-        "recent_activity": []
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 0
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "bible-cross-reference-json",
-      "original_description": "Cross-referenced JSON files of Bible verses",
-      "original_url": "https://github.com/josephilipraja/bible-cross-reference-json/"
-    },
-    {
-      "platform": "github",
-      "metadata": {
         "name": "bible-crossref",
         "owner": "foxprogs",
         "description": null,
@@ -2208,6 +2259,86 @@
       "original_name": "bible-crossref",
       "original_description": "Library that returns cross-references for a selected verse or chapter",
       "original_url": "https://github.com/foxprogs/bible-crossref"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "bible-cross-reference-json",
+        "owner": "josephilipraja",
+        "description": "Bible Verses - Cross Reference (JSON) : There are total of 31,102 verses in 32 JSON files, cross referenced to as many as possible, Reference credit goes to SoulLiberty",
+        "url": "https://github.com/josephilipraja/bible-cross-reference-json",
+        "created_at": "2014-01-20T16:10:10Z",
+        "last_updated": "2024-10-07T20:00:28Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": null,
+        "license": "GNU General Public License v2.0"
+      },
+      "metrics": {
+        "stars": 26,
+        "forks": 10,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["josephilipraja"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Jose Philip Raja",
+        "display_name": "Jose Philip Raja",
+        "url": "https://github.com/josephilipraja",
+        "avatar_url": "https://avatars.githubusercontent.com/u/955799?v=4",
+        "bio": "Founder @CreaveLabs ",
+        "location": "Pathanamthitta, Kerala - India",
+        "email": "mail@josephilipraja.com",
+        "website": "http://www.josephilipraja.com",
+        "company": "CreaveLabs IT Solutions LLP",
+        "public_repos": 18,
+        "followers": 6,
+        "following": 10,
+        "created_at": "2011-08-03T05:41:19Z",
+        "updated_at": "2020-11-08T20:52:42Z",
+        "social_links": {
+          "twitter": null,
+          "website": "http://www.josephilipraja.com"
+        },
+        "hireable": true,
+        "public_gists": 3,
+        "twitter": null,
+        "recent_activity_count": 0,
+        "repos_count": 18
+      },
+      "issues": {
+        "summary": {
+          "total_count": 0,
+          "open_count": 0,
+          "closed_count": 0
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0
+        },
+        "recent_activity": []
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "bible-cross-reference-json",
+      "original_description": "Cross-referenced JSON files of Bible verses",
+      "original_url": "https://github.com/josephilipraja/bible-cross-reference-json/"
     },
     {
       "platform": "gitlab",
@@ -2414,127 +2545,6 @@
     {
       "platform": "github",
       "metadata": {
-        "name": "bible-helper",
-        "owner": "genu",
-        "description": null,
-        "url": "https://github.com/genu/bible-helper",
-        "created_at": "2018-04-06T04:33:49Z",
-        "last_updated": "2023-04-17T10:48:44Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "JavaScript",
-        "license": "MIT License"
-      },
-      "metrics": {
-        "stars": 5,
-        "forks": 5,
-        "open_issues": 2,
-        "contributors": {
-          "total_count": 2,
-          "top_contributors": ["genu", "pkayokay"]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Eugen Istoc",
-        "display_name": "Eugen Istoc",
-        "url": "https://github.com/genu",
-        "avatar_url": "https://avatars.githubusercontent.com/u/928780?v=4",
-        "bio": "Full-time software engineer, open source advocate, lay theologian, part-time soccer, fitness enthusiast, Christian.",
-        "location": "Atlanta, Washington DC",
-        "email": null,
-        "website": "http://www.eugenistoc.com",
-        "company": "AT&T, Lockheed Martin",
-        "public_repos": 191,
-        "followers": 54,
-        "following": 63,
-        "created_at": "2011-07-20T20:48:53Z",
-        "updated_at": "2024-11-14T19:10:48Z",
-        "social_links": {
-          "twitter": null,
-          "website": "http://www.eugenistoc.com"
-        },
-        "hireable": true,
-        "public_gists": 3,
-        "twitter": null,
-        "recent_activity_count": 30,
-        "repos_count": 30
-      },
-      "issues": {
-        "summary": {
-          "total_count": 5,
-          "open_count": 2,
-          "closed_count": 3
-        },
-        "labels": ["bug"],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 0,
-          "average_comments": 0.0
-        },
-        "recent_activity": [
-          {
-            "id": 5,
-            "title": "Configure Renovate",
-            "state": "open",
-            "created_at": "2022-09-30T18:38:01Z",
-            "updated_at": "2024-01-15T17:54:28Z",
-            "author": "renovate[bot]"
-          },
-          {
-            "id": 4,
-            "title": "Text Commands do not work - copy, paste, select all",
-            "state": "open",
-            "created_at": "2018-10-14T21:29:16Z",
-            "updated_at": "2018-10-15T00:44:04Z",
-            "author": "pkayokay"
-          },
-          {
-            "id": 3,
-            "title": "Keyboard shortcut toggle",
-            "state": "closed",
-            "created_at": "2018-04-07T22:53:00Z",
-            "updated_at": "2018-04-07T22:53:48Z",
-            "author": "pkayokay"
-          },
-          {
-            "id": 2,
-            "title": "Token template literal",
-            "state": "closed",
-            "created_at": "2018-04-07T22:27:47Z",
-            "updated_at": "2018-04-07T22:28:03Z",
-            "author": "pkayokay"
-          },
-          {
-            "id": 1,
-            "title": "Add pug, node-sass and sass-loader to dev dependencies",
-            "state": "closed",
-            "created_at": "2018-04-07T22:10:22Z",
-            "updated_at": "2018-04-07T22:11:54Z",
-            "author": "pkayokay"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 0
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Bible Helper",
-      "original_description": "Simple scripture reference lookup tool",
-      "original_url": "https://github.com/genu/bible-helper"
-    },
-    {
-      "platform": "github",
-      "metadata": {
         "name": "Bible-Passage-Reference-Parser",
         "owner": "openbibleinfo",
         "description": "Coffeescript to identify and understand Bible references like \"John 3:16.\"",
@@ -2549,7 +2559,7 @@
       },
       "metrics": {
         "stars": 223,
-        "forks": 66,
+        "forks": 65,
         "open_issues": 18,
         "contributors": {
           "total_count": 1,
@@ -2732,6 +2742,248 @@
       "original_name": "Bible-Query-Parser",
       "original_description": "JavaScript to parse Bible queries",
       "original_url": "https://github.com/openbibleinfo/Bible-Query-Parser"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "BibleQuote",
+        "owner": "biblequote",
+        "description": "Quote the Bible with confidence | \u0426\u0438\u0442\u0438\u0440\u0443\u0439 \u0411\u0438\u0431\u043b\u0438\u044e \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e",
+        "url": "https://github.com/biblequote/BibleQuote",
+        "created_at": "2018-01-11T12:37:37Z",
+        "last_updated": "2024-04-21T13:45:24Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Pascal",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 24,
+        "forks": 8,
+        "open_issues": 42,
+        "contributors": {
+          "total_count": 7,
+          "top_contributors": [
+            "rgilmutdinov",
+            "rkazakov",
+            "djtsov",
+            "romandueck",
+            "AlexeyPolischuk"
+          ]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "BibleQuote",
+        "display_name": "BibleQuote",
+        "url": "https://github.com/biblequote",
+        "avatar_url": "https://avatars.githubusercontent.com/u/34954074?v=4",
+        "description": "",
+        "location": null,
+        "email": null,
+        "website": null,
+        "public_repos": 7,
+        "created_at": "2017-12-30T04:39:47Z",
+        "updated_at": "2018-11-16T12:03:39Z",
+        "members_count": 1,
+        "repos_count": 7,
+        "social_links": {
+          "twitter": null,
+          "website": null
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 17,
+          "closed_count": 83
+        },
+        "labels": ["bug", "feature", "qa"],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": true
+        },
+        "engagement": {
+          "issues_with_comments": 42,
+          "average_comments": 0.46
+        },
+        "recent_activity": [
+          {
+            "id": 268,
+            "title": "Bible project for MacOS",
+            "state": "open",
+            "created_at": "2023-09-01T14:52:38Z",
+            "updated_at": "2023-09-01T16:49:45Z",
+            "author": "proteye"
+          },
+          {
+            "id": 267,
+            "title": "There are no TSK files for the Deuterocanonical Books",
+            "state": "open",
+            "created_at": "2022-02-18T00:57:09Z",
+            "updated_at": "2022-02-18T00:57:09Z",
+            "author": "pepaulo"
+          },
+          {
+            "id": 266,
+            "title": "Create Portugu\u00eas.lng",
+            "state": "closed",
+            "created_at": "2022-02-17T16:17:04Z",
+            "updated_at": "2022-03-03T04:47:31Z",
+            "author": "pepaulo"
+          },
+          {
+            "id": 265,
+            "title": "Bug at Deuterocanonical Books comparation",
+            "state": "open",
+            "created_at": "2022-02-17T16:03:17Z",
+            "updated_at": "2022-02-17T16:03:17Z",
+            "author": "pepaulo"
+          },
+          {
+            "id": 264,
+            "title": "Damaged KJV version",
+            "state": "open",
+            "created_at": "2021-11-26T06:26:19Z",
+            "updated_at": "2021-11-26T06:26:19Z",
+            "author": "Albusdumbldor"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Bible Quote",
+      "original_description": "A Bible study software application with support for multiple translations and commentaries.",
+      "original_url": "https://github.com/biblequote/BibleQuote"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "biblereadinglog",
+        "owner": "pkayokay",
+        "description": null,
+        "url": "https://github.com/pkayokay/biblereadinglog",
+        "created_at": "2024-04-10T00:54:45Z",
+        "last_updated": "2024-05-28T13:27:45Z",
+        "default_branch": "main",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Ruby",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 1,
+        "forks": 0,
+        "open_issues": 14,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["pkayokay"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Paul Kim",
+        "display_name": "Paul Kim",
+        "url": "https://github.com/pkayokay",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13375749?v=4",
+        "bio": null,
+        "location": null,
+        "email": "pkim@hey.com",
+        "website": "",
+        "company": "Popmenu",
+        "public_repos": 72,
+        "followers": 22,
+        "following": 60,
+        "created_at": "2015-07-17T04:46:00Z",
+        "updated_at": "2024-11-10T11:59:07Z",
+        "social_links": {
+          "twitter": null,
+          "website": ""
+        },
+        "hireable": null,
+        "public_gists": 4,
+        "twitter": null,
+        "recent_activity_count": 30,
+        "repos_count": 30
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 11,
+          "closed_count": 89
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 23,
+          "average_comments": 0.25
+        },
+        "recent_activity": [
+          {
+            "id": 130,
+            "title": "Last book completed details",
+            "state": "closed",
+            "created_at": "2024-05-26T18:19:23Z",
+            "updated_at": "2024-05-26T18:19:29Z",
+            "author": "pkayokay"
+          },
+          {
+            "id": 129,
+            "title": "Update confirmation",
+            "state": "closed",
+            "created_at": "2024-05-26T01:58:54Z",
+            "updated_at": "2024-05-26T01:59:00Z",
+            "author": "pkayokay"
+          },
+          {
+            "id": 128,
+            "title": "UI",
+            "state": "closed",
+            "created_at": "2024-05-25T17:17:26Z",
+            "updated_at": "2024-05-25T17:19:38Z",
+            "author": "pkayokay"
+          },
+          {
+            "id": 127,
+            "title": "Set up Recurring Job that Sends Reading Log Reminders",
+            "state": "closed",
+            "created_at": "2024-05-24T18:26:58Z",
+            "updated_at": "2024-05-24T18:50:59Z",
+            "author": "pkayokay"
+          },
+          {
+            "id": 126,
+            "title": "Annotate models",
+            "state": "closed",
+            "created_at": "2024-05-24T02:43:29Z",
+            "updated_at": "2024-05-24T02:43:34Z",
+            "author": "pkayokay"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 492
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Bible Reading Log",
+      "original_description": "A simple Bible reading tracker",
+      "original_url": "https://github.com/pkayokay/biblereadinglog"
     },
     {
       "platform": "github",
@@ -2921,255 +3173,6 @@
     {
       "platform": "github",
       "metadata": {
-        "name": "bible-vector-search",
-        "owner": "tim-hub",
-        "description": "Bible verse search in meaning theough embedding and vector database.",
-        "url": "https://github.com/tim-hub/bible-vector-search",
-        "created_at": "2024-07-19T08:11:20Z",
-        "last_updated": "2024-10-22T17:59:39Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "TypeScript",
-        "license": "MIT License"
-      },
-      "metrics": {
-        "stars": 13,
-        "forks": 0,
-        "open_issues": 0,
-        "contributors": {
-          "total_count": 1,
-          "top_contributors": ["tim-hub"]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Tim",
-        "display_name": "Tim",
-        "url": "https://github.com/tim-hub",
-        "avatar_url": "https://avatars.githubusercontent.com/u/2884320?v=4",
-        "bio": "\u2764\ufe0f Learn, Share and Grow  ---- Software Engineer | AWS Professional & Community Builder | Open Source Lover ",
-        "location": "Asia Pacific",
-        "email": null,
-        "website": "https://techtim42.com",
-        "company": null,
-        "public_repos": 246,
-        "followers": 184,
-        "following": 142,
-        "created_at": "2012-11-25T13:08:36Z",
-        "updated_at": "2024-10-14T04:09:33Z",
-        "social_links": {
-          "twitter": "https://twitter.com/techtim42",
-          "website": "https://techtim42.com"
-        },
-        "hireable": true,
-        "public_gists": 36,
-        "twitter": "techtim42",
-        "recent_activity_count": 30,
-        "repos_count": 30
-      },
-      "issues": {
-        "summary": {
-          "total_count": 0,
-          "open_count": 0,
-          "closed_count": 0
-        },
-        "labels": [],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 0,
-          "average_comments": 0
-        },
-        "recent_activity": []
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 18
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Bible Vector Search",
-      "original_description": "Bible verse search in meaning theough embedding and vector database.",
-      "original_url": "https://github.com/tim-hub/bible-vector-search"
-    },
-    {
-      "platform": "gitlab",
-      "metadata": {
-        "name": "bible-verse",
-        "owner": "robertmermet",
-        "description": "",
-        "url": "https://gitlab.com/robertmermet/bible-verse",
-        "created_at": "2023-11-03T14:08:09.118Z",
-        "last_updated": "2024-06-24T14:39:43.145Z",
-        "default_branch": "main",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "",
-        "license": "Unknown"
-      },
-      "metrics": {
-        "stars": 1,
-        "forks": 0,
-        "open_issues": 1,
-        "contributors": {
-          "total_count": 1,
-          "top_contributors": ["robertmermet"]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Robert Mermet",
-        "display_name": "Robert Mermet",
-        "url": "https://gitlab.com/robertmermet",
-        "avatar_url": "https://secure.gravatar.com/avatar/0fca551e985b8502b1011c68da93e7b85f705999885fe16982b7b9821e1da533?s=80&d=identicon",
-        "bio": "",
-        "location": "",
-        "email": "",
-        "website": "",
-        "company": "",
-        "public_repos": 0,
-        "followers": null,
-        "following": null,
-        "created_at": "",
-        "updated_at": "",
-        "social_links": {
-          "website": null,
-          "twitter": null
-        },
-        "hireable": null,
-        "public_gists": null,
-        "twitter": null,
-        "recent_activity_count": null,
-        "repos_count": null
-      },
-      "issues": {
-        "summary": {
-          "total_count": 1,
-          "open_count": 1,
-          "closed_count": 0
-        },
-        "labels": [],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 0,
-          "average_comments": 0.0
-        },
-        "recent_activity": [
-          {
-            "id": 1,
-            "title": "Add License",
-            "state": "opened",
-            "created_at": "2024-03-12T04:09:44.382Z",
-            "updated_at": "2024-03-12T04:09:44.382Z",
-            "author": "meichthys"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 16
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Bible Verse",
-      "original_description": "Displays a selected Bible verse, or verses, from the KJV",
-      "original_url": "https://gitlab.com/robertmermet/bible-verse"
-    },
-    {
-      "platform": "github",
-      "metadata": {
-        "name": "Bible-Web-app-collections",
-        "owner": "Relic-a",
-        "description": "A collections of web apps to interact with the Bible created using https://bolls.life/api/ ",
-        "url": "https://github.com/Relic-a/Bible-Web-app-collections",
-        "created_at": "2024-06-25T21:50:50Z",
-        "last_updated": "2024-06-25T21:57:35Z",
-        "default_branch": "main",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "JavaScript",
-        "license": "MIT License"
-      },
-      "metrics": {
-        "stars": 0,
-        "forks": 0,
-        "open_issues": 0,
-        "contributors": {
-          "total_count": 1,
-          "top_contributors": ["Relic-a"]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Ezana Mesfin",
-        "display_name": "Ezana Mesfin",
-        "url": "https://github.com/Relic-a",
-        "avatar_url": "https://avatars.githubusercontent.com/u/150846571?v=4",
-        "bio": "Future AI Leader",
-        "location": null,
-        "email": null,
-        "website": "",
-        "company": null,
-        "public_repos": 3,
-        "followers": 0,
-        "following": 0,
-        "created_at": "2023-11-14T18:48:41Z",
-        "updated_at": "2024-11-14T08:35:17Z",
-        "social_links": {
-          "twitter": null,
-          "website": ""
-        },
-        "hireable": null,
-        "public_gists": 0,
-        "twitter": null,
-        "recent_activity_count": 0,
-        "repos_count": 3
-      },
-      "issues": {
-        "summary": {
-          "total_count": 0,
-          "open_count": 0,
-          "closed_count": 0
-        },
-        "labels": [],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 0,
-          "average_comments": 0
-        },
-        "recent_activity": []
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 3
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Bible-Web-app-collections",
-      "original_description": "A collections of web apps to interact with the Bible created using https://bolls.life/api/",
-      "original_url": "https://github.com/Relic-a/Bible-Web-app-collections"
-    },
-    {
-      "platform": "github",
-      "metadata": {
         "name": "bible.rs",
         "owner": "DSpeckhals",
         "description": "A Bible server written in Rust using Actix Web and Diesel",
@@ -3277,7 +3280,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 1
+          "total_commits_last_year": 0
         },
         "repository_activity": {
           "last_updated": null,
@@ -3404,6 +3407,269 @@
       "original_url": "https://github.com/BibleJS/BibleApp"
     },
     {
+      "platform": "gitlab",
+      "metadata": {
+        "name": "biblebot/BibleBot",
+        "owner": "kerygmadigital",
+        "description": "\u271d\ufe0f Scripture from your Discord client to your heart.",
+        "url": "https://gitlab.com/kerygmadigital/biblebot/BibleBot",
+        "created_at": "2022-07-10T00:47:16.175Z",
+        "last_updated": "2024-10-21T07:35:53.061Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 7,
+        "forks": 4,
+        "open_issues": 107,
+        "contributors": {
+          "total_count": 10,
+          "top_contributors": [
+            "BuildTools",
+            "Elliott Pardee",
+            "The Codacy Badger",
+            "dependabot[bot]",
+            "Abraham Sewill"
+          ]
+        }
+      },
+      "owner_info": {
+        "type": "group",
+        "name": "Kerygma Digital",
+        "display_name": "Kerygma Digital",
+        "url": "https://gitlab.com/kerygmadigital",
+        "avatar_url": "https://gitlab.com/uploads/-/system/group/avatar/9813974/kerygmalargeicon.png",
+        "description": "Open-source solutions to Christian problems.",
+        "location": "",
+        "email": "",
+        "website": "",
+        "public_repos": 0,
+        "created_at": "2020-10-20T00:50:38.839Z",
+        "updated_at": "",
+        "members_count": 2,
+        "repos_count": null,
+        "social_links": {
+          "website": null,
+          "twitter": null
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 67,
+          "closed_count": 33
+        },
+        "labels": [
+          "dependencies",
+          "licensing::to do",
+          "licensing::uncertainty",
+          "partialfix",
+          "service",
+          "bug",
+          "priority::medium",
+          "priority::low",
+          "upstream",
+          "translation::request",
+          "strange behavior",
+          "translation::removed",
+          "priority::on hold",
+          "licensing::in progress",
+          "feature",
+          "translation::live",
+          "priority::nice-to-have",
+          "priority::high",
+          "duplicate",
+          "good first issue",
+          "wontfix",
+          "invalid",
+          "licensing::not applicable",
+          "licensing::impossible",
+          "needs::implementation",
+          "help wanted"
+        ],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 50,
+          "average_comments": 0.91
+        },
+        "recent_activity": [
+          {
+            "id": 376,
+            "title": "Chapter number does not get parsed out properly.",
+            "state": "closed",
+            "created_at": "2024-08-18T20:33:53.373Z",
+            "updated_at": "2024-08-18T20:56:51.586Z",
+            "author": "SeraphimRP"
+          },
+          {
+            "id": 374,
+            "title": "Catechism of the OCA",
+            "state": "opened",
+            "created_at": "2024-07-22T22:13:49.590Z",
+            "updated_at": "2024-07-22T22:14:54.154Z",
+            "author": "TheTieflingRngr"
+          },
+          {
+            "id": 373,
+            "title": "Referencing Malachi causes incorrect output on ELXX",
+            "state": "opened",
+            "created_at": "2024-07-16T01:24:50.819Z",
+            "updated_at": "2024-07-16T01:24:50.819Z",
+            "author": "SeraphimRP"
+          },
+          {
+            "id": 372,
+            "title": "Version Preference Order",
+            "state": "opened",
+            "created_at": "2024-07-06T00:51:42.342Z",
+            "updated_at": "2024-07-06T00:51:42.342Z",
+            "author": "IDontwanttohelpthissitesecureitself"
+          },
+          {
+            "id": 371,
+            "title": "\"Woman\" points to the book of Romans",
+            "state": "closed",
+            "created_at": "2024-06-30T04:21:15.761Z",
+            "updated_at": "2024-08-18T20:56:51.583Z",
+            "author": "SeraphimRP"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 20
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "BibleBot",
+      "original_description": "Scripture from your Discord client to your heart",
+      "original_url": "https://gitlab.com/kerygmadigital/biblebot/BibleBot"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "old",
+        "owner": "bibledit",
+        "description": "Older code for Bibledit",
+        "url": "https://github.com/bibledit/old",
+        "created_at": "2014-10-28T17:47:09Z",
+        "last_updated": "2022-02-09T11:19:37Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": null,
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 10,
+        "forks": 7,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 3,
+          "top_contributors": ["teusbenschop", "postiffm", "alerque"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "Bibledit",
+        "display_name": "Bibledit",
+        "url": "https://github.com/bibledit",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13251906?v=4",
+        "description": "Bible translation software: translate any Bible, at any time, anywhere, on any device",
+        "location": null,
+        "email": null,
+        "website": "http://bibledit.org",
+        "public_repos": 12,
+        "created_at": "2015-07-09T08:35:00Z",
+        "updated_at": "2016-04-30T12:03:43Z",
+        "members_count": 2,
+        "repos_count": 12,
+        "social_links": {
+          "twitter": null,
+          "website": "http://bibledit.org"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 0,
+          "closed_count": 100
+        },
+        "labels": ["bug", "wontfix", "question", "invalid", "enhancement"],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": true
+        },
+        "engagement": {
+          "issues_with_comments": 35,
+          "average_comments": 1.19
+        },
+        "recent_activity": [
+          {
+            "id": 584,
+            "title": "Quit at midnight code",
+            "state": "closed",
+            "created_at": "2017-05-24T17:13:36Z",
+            "updated_at": "2017-05-26T10:41:52Z",
+            "author": "teusbenschop"
+          },
+          {
+            "id": 583,
+            "title": "Update install.sh for libmimetic",
+            "state": "closed",
+            "created_at": "2017-05-24T15:16:15Z",
+            "updated_at": "2017-05-26T10:42:13Z",
+            "author": "teusbenschop"
+          },
+          {
+            "id": 582,
+            "title": "two-way send/receive to git repository  by default.",
+            "state": "closed",
+            "created_at": "2017-05-23T12:16:36Z",
+            "updated_at": "2017-05-26T10:42:48Z",
+            "author": "teusbenschop"
+          },
+          {
+            "id": 581,
+            "title": "vm_statistics64 stats' has incomplete type and cannot be defined",
+            "state": "closed",
+            "created_at": "2017-05-22T10:26:32Z",
+            "updated_at": "2017-05-26T10:42:57Z",
+            "author": "teusbenschop"
+          },
+          {
+            "id": 580,
+            "title": "Investigate basics of Universal Windows App",
+            "state": "closed",
+            "created_at": "2017-05-20T17:28:51Z",
+            "updated_at": "2017-05-26T10:43:18Z",
+            "author": "teusbenschop"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Bibledit",
+      "original_description": "Bibledit is a suite of Bible translation tools supporting translators with drafting, checking, and publishing.",
+      "original_url": "https://github.com/bibledit/bibledit"
+    },
+    {
       "platform": "github",
       "metadata": {
         "name": "biblehub",
@@ -3459,7 +3725,7 @@
           "open_count": 13,
           "closed_count": 7
         },
-        "labels": ["enhancement", "bug", "chore", "dependencies"],
+        "labels": ["enhancement", "bug", "dependencies", "chore"],
         "features": {
           "has_assignees": true,
           "has_milestones": true
@@ -3586,7 +3852,7 @@
           "open_count": 6,
           "closed_count": 89
         },
-        "labels": ["enhancement", "wishlist", "help wanted", "dependencies"],
+        "labels": ["enhancement", "wishlist", "dependencies", "help wanted"],
         "features": {
           "has_assignees": true,
           "has_milestones": true
@@ -3640,7 +3906,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 0
+          "total_commits_last_year": 64
         },
         "repository_activity": {
           "last_updated": null,
@@ -3935,7 +4201,7 @@
           "open_count": 2,
           "closed_count": 12
         },
-        "labels": ["enhancement", "bug", "help wanted"],
+        "labels": ["bug", "enhancement", "help wanted"],
         "features": {
           "has_assignees": true,
           "has_milestones": false
@@ -3999,248 +4265,6 @@
       "original_name": "BibleNotify",
       "original_description": "Offline, privacy-friendly daily Bible verse notification app",
       "original_url": "https://github.com/BibleNotify/BibleNotify"
-    },
-    {
-      "platform": "github",
-      "metadata": {
-        "name": "BibleQuote",
-        "owner": "biblequote",
-        "description": "Quote the Bible with confidence | \u0426\u0438\u0442\u0438\u0440\u0443\u0439 \u0411\u0438\u0431\u043b\u0438\u044e \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e",
-        "url": "https://github.com/biblequote/BibleQuote",
-        "created_at": "2018-01-11T12:37:37Z",
-        "last_updated": "2024-04-21T13:45:24Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "Pascal",
-        "license": "Unknown"
-      },
-      "metrics": {
-        "stars": 24,
-        "forks": 8,
-        "open_issues": 42,
-        "contributors": {
-          "total_count": 7,
-          "top_contributors": [
-            "rgilmutdinov",
-            "rkazakov",
-            "djtsov",
-            "romandueck",
-            "AlexeyPolischuk"
-          ]
-        }
-      },
-      "owner_info": {
-        "type": "organization",
-        "name": "BibleQuote",
-        "display_name": "BibleQuote",
-        "url": "https://github.com/biblequote",
-        "avatar_url": "https://avatars.githubusercontent.com/u/34954074?v=4",
-        "description": "",
-        "location": null,
-        "email": null,
-        "website": null,
-        "public_repos": 7,
-        "created_at": "2017-12-30T04:39:47Z",
-        "updated_at": "2018-11-16T12:03:39Z",
-        "members_count": 1,
-        "repos_count": 7,
-        "social_links": {
-          "twitter": null,
-          "website": null
-        }
-      },
-      "issues": {
-        "summary": {
-          "total_count": 100,
-          "open_count": 17,
-          "closed_count": 83
-        },
-        "labels": ["qa", "bug", "feature"],
-        "features": {
-          "has_assignees": true,
-          "has_milestones": true
-        },
-        "engagement": {
-          "issues_with_comments": 42,
-          "average_comments": 0.46
-        },
-        "recent_activity": [
-          {
-            "id": 268,
-            "title": "Bible project for MacOS",
-            "state": "open",
-            "created_at": "2023-09-01T14:52:38Z",
-            "updated_at": "2023-09-01T16:49:45Z",
-            "author": "proteye"
-          },
-          {
-            "id": 267,
-            "title": "There are no TSK files for the Deuterocanonical Books",
-            "state": "open",
-            "created_at": "2022-02-18T00:57:09Z",
-            "updated_at": "2022-02-18T00:57:09Z",
-            "author": "pepaulo"
-          },
-          {
-            "id": 266,
-            "title": "Create Portugu\u00eas.lng",
-            "state": "closed",
-            "created_at": "2022-02-17T16:17:04Z",
-            "updated_at": "2022-03-03T04:47:31Z",
-            "author": "pepaulo"
-          },
-          {
-            "id": 265,
-            "title": "Bug at Deuterocanonical Books comparation",
-            "state": "open",
-            "created_at": "2022-02-17T16:03:17Z",
-            "updated_at": "2022-02-17T16:03:17Z",
-            "author": "pepaulo"
-          },
-          {
-            "id": 264,
-            "title": "Damaged KJV version",
-            "state": "open",
-            "created_at": "2021-11-26T06:26:19Z",
-            "updated_at": "2021-11-26T06:26:19Z",
-            "author": "Albusdumbldor"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 0
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Bible Quote",
-      "original_description": "A Bible study software application with support for multiple translations and commentaries.",
-      "original_url": "https://github.com/biblequote/BibleQuote"
-    },
-    {
-      "platform": "github",
-      "metadata": {
-        "name": "biblereadinglog",
-        "owner": "pkayokay",
-        "description": null,
-        "url": "https://github.com/pkayokay/biblereadinglog",
-        "created_at": "2024-04-10T00:54:45Z",
-        "last_updated": "2024-05-28T13:27:45Z",
-        "default_branch": "main",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "Ruby",
-        "license": "Unknown"
-      },
-      "metrics": {
-        "stars": 1,
-        "forks": 0,
-        "open_issues": 14,
-        "contributors": {
-          "total_count": 1,
-          "top_contributors": ["pkayokay"]
-        }
-      },
-      "owner_info": {
-        "type": "user",
-        "name": "Paul Kim",
-        "display_name": "Paul Kim",
-        "url": "https://github.com/pkayokay",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13375749?v=4",
-        "bio": null,
-        "location": null,
-        "email": "pkim@hey.com",
-        "website": "",
-        "company": "Popmenu",
-        "public_repos": 72,
-        "followers": 22,
-        "following": 60,
-        "created_at": "2015-07-17T04:46:00Z",
-        "updated_at": "2024-11-10T11:59:07Z",
-        "social_links": {
-          "twitter": null,
-          "website": ""
-        },
-        "hireable": null,
-        "public_gists": 4,
-        "twitter": null,
-        "recent_activity_count": 30,
-        "repos_count": 30
-      },
-      "issues": {
-        "summary": {
-          "total_count": 100,
-          "open_count": 11,
-          "closed_count": 89
-        },
-        "labels": [],
-        "features": {
-          "has_assignees": false,
-          "has_milestones": false
-        },
-        "engagement": {
-          "issues_with_comments": 23,
-          "average_comments": 0.25
-        },
-        "recent_activity": [
-          {
-            "id": 130,
-            "title": "Last book completed details",
-            "state": "closed",
-            "created_at": "2024-05-26T18:19:23Z",
-            "updated_at": "2024-05-26T18:19:29Z",
-            "author": "pkayokay"
-          },
-          {
-            "id": 129,
-            "title": "Update confirmation",
-            "state": "closed",
-            "created_at": "2024-05-26T01:58:54Z",
-            "updated_at": "2024-05-26T01:59:00Z",
-            "author": "pkayokay"
-          },
-          {
-            "id": 128,
-            "title": "UI",
-            "state": "closed",
-            "created_at": "2024-05-25T17:17:26Z",
-            "updated_at": "2024-05-25T17:19:38Z",
-            "author": "pkayokay"
-          },
-          {
-            "id": 127,
-            "title": "Set up Recurring Job that Sends Reading Log Reminders",
-            "state": "closed",
-            "created_at": "2024-05-24T18:26:58Z",
-            "updated_at": "2024-05-24T18:50:59Z",
-            "author": "pkayokay"
-          },
-          {
-            "id": 126,
-            "title": "Annotate models",
-            "state": "closed",
-            "created_at": "2024-05-24T02:43:29Z",
-            "updated_at": "2024-05-24T02:43:34Z",
-            "author": "pkayokay"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 492
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Bible Reading Log",
-      "original_description": "A simple Bible reading tracker",
-      "original_url": "https://github.com/pkayokay/biblereadinglog"
     },
     {
       "platform": "github",
@@ -4414,32 +4438,32 @@
           "closed_count": 62
         },
         "labels": [
-          "component: Documentation",
-          "resolution: DUPLICATE",
-          "component: Personal commentary",
-          "component: Packaging/Releases",
-          "component: Translations",
-          "type: ENHANCEMENT",
-          "component: Frontend",
-          "type: QUESTION",
-          "type: BUG",
-          "resolution: WONTFIX",
-          "component: Display templates",
-          "component: Sword/Sword++ related",
-          "component: Search / Indexing",
-          "resolution: CANTFIX",
-          "type: Feedback",
-          "component: General",
-          "component: Build system",
-          "resolution: WORKSFORME",
-          "component: Qt related",
-          "type: TECHDEBT",
-          "resolution: INVALID",
-          "component: Backend",
-          "resolution: FIXED",
-          "MORE INFORMATION NEEDED",
           "resolution: UPSTREAM ISSUE",
-          "component: Other"
+          "resolution: INVALID",
+          "resolution: DUPLICATE",
+          "resolution: CANTFIX",
+          "resolution: WONTFIX",
+          "type: Feedback",
+          "resolution: WORKSFORME",
+          "component: Translations",
+          "type: TECHDEBT",
+          "component: Qt related",
+          "type: ENHANCEMENT",
+          "component: Sword/Sword++ related",
+          "resolution: FIXED",
+          "type: QUESTION",
+          "component: Packaging/Releases",
+          "component: Documentation",
+          "component: Personal commentary",
+          "component: Frontend",
+          "type: BUG",
+          "MORE INFORMATION NEEDED",
+          "component: Display templates",
+          "component: General",
+          "component: Search / Indexing",
+          "component: Other",
+          "component: Build system",
+          "component: Backend"
         ],
         "features": {
           "has_assignees": true,
@@ -4504,6 +4528,166 @@
       "original_name": "BibleTime",
       "original_description": "BibleTime is a Bible study application based on the SWORD library, offering a rich set of features for in-depth study.",
       "original_url": "https://github.com/bibletime/bibletime"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "bible-vector-search",
+        "owner": "tim-hub",
+        "description": "Bible verse search in meaning theough embedding and vector database.",
+        "url": "https://github.com/tim-hub/bible-vector-search",
+        "created_at": "2024-07-19T08:11:20Z",
+        "last_updated": "2024-10-22T17:59:39Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "TypeScript",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 13,
+        "forks": 0,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["tim-hub"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Tim",
+        "display_name": "Tim",
+        "url": "https://github.com/tim-hub",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2884320?v=4",
+        "bio": "\u2764\ufe0f Learn, Share and Grow  ---- Software Engineer | AWS Professional & Community Builder | Open Source Lover ",
+        "location": "Asia Pacific",
+        "email": null,
+        "website": "https://techtim42.com",
+        "company": null,
+        "public_repos": 246,
+        "followers": 184,
+        "following": 142,
+        "created_at": "2012-11-25T13:08:36Z",
+        "updated_at": "2024-10-14T04:09:33Z",
+        "social_links": {
+          "twitter": "https://twitter.com/techtim42",
+          "website": "https://techtim42.com"
+        },
+        "hireable": true,
+        "public_gists": 36,
+        "twitter": "techtim42",
+        "recent_activity_count": 30,
+        "repos_count": 30
+      },
+      "issues": {
+        "summary": {
+          "total_count": 0,
+          "open_count": 0,
+          "closed_count": 0
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0
+        },
+        "recent_activity": []
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 18
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Bible Vector Search",
+      "original_description": "Bible verse search in meaning theough embedding and vector database.",
+      "original_url": "https://github.com/tim-hub/bible-vector-search"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "Bible-Web-app-collections",
+        "owner": "Relic-a",
+        "description": "A collections of web apps to interact with the Bible created using https://bolls.life/api/ ",
+        "url": "https://github.com/Relic-a/Bible-Web-app-collections",
+        "created_at": "2024-06-25T21:50:50Z",
+        "last_updated": "2024-06-25T21:57:35Z",
+        "default_branch": "main",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "JavaScript",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["Relic-a"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Ezana Mesfin",
+        "display_name": "Ezana Mesfin",
+        "url": "https://github.com/Relic-a",
+        "avatar_url": "https://avatars.githubusercontent.com/u/150846571?v=4",
+        "bio": "Future AI Leader",
+        "location": null,
+        "email": null,
+        "website": "",
+        "company": null,
+        "public_repos": 3,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2023-11-14T18:48:41Z",
+        "updated_at": "2024-11-14T08:35:17Z",
+        "social_links": {
+          "twitter": null,
+          "website": ""
+        },
+        "hireable": null,
+        "public_gists": 0,
+        "twitter": null,
+        "recent_activity_count": 0,
+        "repos_count": 3
+      },
+      "issues": {
+        "summary": {
+          "total_count": 0,
+          "open_count": 0,
+          "closed_count": 0
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0
+        },
+        "recent_activity": []
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 3
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Bible-Web-app-collections",
+      "original_description": "A collections of web apps to interact with the Bible created using https://bolls.life/api/",
+      "original_url": "https://github.com/Relic-a/Bible-Web-app-collections"
     },
     {
       "platform": "github",
@@ -4652,7 +4836,7 @@
           "open_count": 25,
           "closed_count": 13
         },
-        "labels": ["javascript", "php", "dependencies"],
+        "labels": ["php", "dependencies", "javascript"],
         "features": {
           "has_assignees": false,
           "has_milestones": false
@@ -4773,7 +4957,7 @@
           "open_count": 1,
           "closed_count": 0
         },
-        "labels": ["good first issue", "task"],
+        "labels": ["task", "good first issue"],
         "features": {
           "has_assignees": false,
           "has_milestones": false
@@ -4926,6 +5110,143 @@
       "original_name": "ChumsApp",
       "original_description": "CHUrch Management Software",
       "original_url": "https://github.com/ChurchApps/ChumsApp"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "CRM",
+        "owner": "ChurchCRM",
+        "description": "ChurchCRM is an OpenSource Church CRM & Management Software.",
+        "url": "https://github.com/ChurchCRM/CRM",
+        "created_at": "2015-02-16T06:38:40Z",
+        "last_updated": "2024-11-11T06:27:31Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "PHP",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 636,
+        "forks": 445,
+        "open_issues": 28,
+        "contributors": {
+          "total_count": 30,
+          "top_contributors": ["DawoudIO", "crossan007", "DAcodedBEAT", "romdricks", "phili67"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "ChurchCRM",
+        "display_name": "ChurchCRM",
+        "url": "https://github.com/ChurchCRM",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11025185?v=4",
+        "description": "OpenSource LAMP Church CRM System",
+        "location": null,
+        "email": "info@churchcrm.io",
+        "website": "http://churchcrm.io",
+        "public_repos": 7,
+        "created_at": "2015-02-16T06:34:44Z",
+        "updated_at": "2024-11-15T12:27:56Z",
+        "members_count": 0,
+        "repos_count": 7,
+        "social_links": {
+          "twitter": null,
+          "website": "http://churchcrm.io"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 6,
+          "closed_count": 94
+        },
+        "labels": [
+          "Code Smell",
+          "Feature: Emails",
+          "Feature: Users",
+          "status: needs information",
+          "build",
+          "enhancement",
+          "Documentation",
+          "bug",
+          "development",
+          "Localization",
+          "Platform: Database",
+          "Feature: Members",
+          "Stale",
+          "Installation / Upgrade",
+          "UI",
+          "php",
+          "javascript",
+          "question",
+          "Feature: Events / Calendar",
+          "good first issue",
+          "Package Dependencies"
+        ],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": true
+        },
+        "engagement": {
+          "issues_with_comments": 27,
+          "average_comments": 0.67
+        },
+        "recent_activity": [
+          {
+            "id": 7196,
+            "title": "Bug: Upgrade Error ",
+            "state": "closed",
+            "created_at": "2024-11-13T19:13:36Z",
+            "updated_at": "2024-11-14T12:12:25Z",
+            "author": "abbooysen"
+          },
+          {
+            "id": 7195,
+            "title": "Trouble getting API keys to work for Google Maps",
+            "state": "open",
+            "created_at": "2024-11-12T03:06:52Z",
+            "updated_at": "2024-11-12T03:06:52Z",
+            "author": "dgebel"
+          },
+          {
+            "id": 7194,
+            "title": "New Locale - Telugu",
+            "state": "closed",
+            "created_at": "2024-11-09T19:32:17Z",
+            "updated_at": "2024-11-09T19:43:21Z",
+            "author": "DawoudIO"
+          },
+          {
+            "id": 7193,
+            "title": "Bump twig/twig from 3.14.0 to 3.14.1 in /src",
+            "state": "closed",
+            "created_at": "2024-11-06T19:53:32Z",
+            "updated_at": "2024-11-07T18:05:31Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "id": 7192,
+            "title": "5.12.0 POEditor Update - 2024-11-03",
+            "state": "closed",
+            "created_at": "2024-11-03T01:16:52Z",
+            "updated_at": "2024-11-03T16:26:20Z",
+            "author": "github-actions[bot]"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 1287
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "ChurchCRM",
+      "original_description": "An open-source church management system that helps churches track members, donations, and manage events.",
+      "original_url": "https://github.com/ChurchCRM/CRM"
     },
     {
       "platform": "github",
@@ -5099,12 +5420,12 @@
           "closed_count": 33
         },
         "labels": [
-          "Feature Request",
+          "bug",
           "ui-enhancement",
           "wontfix",
+          "control-enhancement",
           "server-enhancement",
-          "bug",
-          "control-enhancement"
+          "Feature Request"
         ],
         "features": {
           "has_assignees": true,
@@ -5169,143 +5490,6 @@
       "original_name": "CPresent",
       "original_description": "Simplified, web-based church presentation system",
       "original_url": "https://github.com/jaitaiwan/CPresent"
-    },
-    {
-      "platform": "github",
-      "metadata": {
-        "name": "CRM",
-        "owner": "ChurchCRM",
-        "description": "ChurchCRM is an OpenSource Church CRM & Management Software.",
-        "url": "https://github.com/ChurchCRM/CRM",
-        "created_at": "2015-02-16T06:38:40Z",
-        "last_updated": "2024-11-11T06:27:31Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": "PHP",
-        "license": "MIT License"
-      },
-      "metrics": {
-        "stars": 636,
-        "forks": 445,
-        "open_issues": 28,
-        "contributors": {
-          "total_count": 30,
-          "top_contributors": ["DawoudIO", "crossan007", "DAcodedBEAT", "romdricks", "phili67"]
-        }
-      },
-      "owner_info": {
-        "type": "organization",
-        "name": "ChurchCRM",
-        "display_name": "ChurchCRM",
-        "url": "https://github.com/ChurchCRM",
-        "avatar_url": "https://avatars.githubusercontent.com/u/11025185?v=4",
-        "description": "OpenSource LAMP Church CRM System",
-        "location": null,
-        "email": "info@churchcrm.io",
-        "website": "http://churchcrm.io",
-        "public_repos": 7,
-        "created_at": "2015-02-16T06:34:44Z",
-        "updated_at": "2024-10-15T11:25:54Z",
-        "members_count": 0,
-        "repos_count": 7,
-        "social_links": {
-          "twitter": null,
-          "website": "http://churchcrm.io"
-        }
-      },
-      "issues": {
-        "summary": {
-          "total_count": 100,
-          "open_count": 6,
-          "closed_count": 94
-        },
-        "labels": [
-          "javascript",
-          "question",
-          "php",
-          "build",
-          "Feature: Users",
-          "bug",
-          "Documentation",
-          "Feature: Events / Calendar",
-          "Installation / Upgrade",
-          "Package Dependencies",
-          "development",
-          "good first issue",
-          "Feature: Emails",
-          "Stale",
-          "Code Smell",
-          "enhancement",
-          "Feature: Members",
-          "UI",
-          "status: needs information",
-          "Localization",
-          "Platform: Database"
-        ],
-        "features": {
-          "has_assignees": true,
-          "has_milestones": true
-        },
-        "engagement": {
-          "issues_with_comments": 27,
-          "average_comments": 0.67
-        },
-        "recent_activity": [
-          {
-            "id": 7196,
-            "title": "Bug: Upgrade Error ",
-            "state": "closed",
-            "created_at": "2024-11-13T19:13:36Z",
-            "updated_at": "2024-11-14T12:12:25Z",
-            "author": "abbooysen"
-          },
-          {
-            "id": 7195,
-            "title": "Trouble getting API keys to work for Google Maps",
-            "state": "open",
-            "created_at": "2024-11-12T03:06:52Z",
-            "updated_at": "2024-11-12T03:06:52Z",
-            "author": "dgebel"
-          },
-          {
-            "id": 7194,
-            "title": "New Locale - Telugu",
-            "state": "closed",
-            "created_at": "2024-11-09T19:32:17Z",
-            "updated_at": "2024-11-09T19:43:21Z",
-            "author": "DawoudIO"
-          },
-          {
-            "id": 7193,
-            "title": "Bump twig/twig from 3.14.0 to 3.14.1 in /src",
-            "state": "closed",
-            "created_at": "2024-11-06T19:53:32Z",
-            "updated_at": "2024-11-07T18:05:31Z",
-            "author": "dependabot[bot]"
-          },
-          {
-            "id": 7192,
-            "title": "5.12.0 POEditor Update - 2024-11-03",
-            "state": "closed",
-            "created_at": "2024-11-03T01:16:52Z",
-            "updated_at": "2024-11-03T16:26:20Z",
-            "author": "github-actions[bot]"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 1287
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "ChurchCRM",
-      "original_description": "An open-source church management system that helps churches track members, donations, and manage events.",
-      "original_url": "https://github.com/ChurchCRM/CRM"
     },
     {
       "platform": "gitlab",
@@ -5552,11 +5736,11 @@
           "closed_count": 55
         },
         "labels": [
+          "bug",
+          "wontfix",
           "enhancement",
           "invalid",
           "Feedback required",
-          "wontfix",
-          "bug",
           "can't reproduce",
           "Severe bug"
         ],
@@ -5753,7 +5937,7 @@
         "description": "Ezra Bible App is a modern and user-friendly Bible app for desktops, tablets and mobiles focussing on topical study",
         "url": "https://github.com/ezra-bible-app/ezra-bible-app",
         "created_at": "2019-02-02T16:52:33Z",
-        "last_updated": "2024-11-12T02:25:01Z",
+        "last_updated": "2024-11-15T17:01:50Z",
         "default_branch": "master",
         "is_archived": false,
         "is_fork": false,
@@ -5802,13 +5986,13 @@
           "closed_count": 94
         },
         "labels": [
-          "translation",
           "dependencies",
-          "Android",
-          "macOS",
-          "enhancement :sparkles:",
           "bug \ud83d\udc1e",
+          "Android",
+          "translation",
+          "macOS",
           "enabler",
+          "enhancement :sparkles:",
           "feature :sparkles:",
           "help wanted"
         ],
@@ -5817,24 +6001,40 @@
           "has_milestones": false
         },
         "engagement": {
-          "issues_with_comments": 31,
-          "average_comments": 0.84
+          "issues_with_comments": 30,
+          "average_comments": 0.83
         },
         "recent_activity": [
           {
+            "id": 1152,
+            "title": "Add build for OpenSuse Leap 15.6",
+            "state": "open",
+            "created_at": "2024-11-15T19:35:45Z",
+            "updated_at": "2024-11-15T19:35:45Z",
+            "author": "tobias-klein"
+          },
+          {
+            "id": 1151,
+            "title": "Add package for OpenSuse Leap 15.6",
+            "state": "open",
+            "created_at": "2024-11-15T19:34:54Z",
+            "updated_at": "2024-11-15T19:35:03Z",
+            "author": "tobias-klein"
+          },
+          {
             "id": 1150,
             "title": "Add package for OpenSuse Leap 15.5",
-            "state": "open",
+            "state": "closed",
             "created_at": "2024-11-11T20:26:26Z",
-            "updated_at": "2024-11-11T20:31:49Z",
+            "updated_at": "2024-11-15T17:01:48Z",
             "author": "tobias-klein"
           },
           {
             "id": 1149,
             "title": "Add package for OpenSuse Leap 15.5 (to replace 15.2)",
-            "state": "open",
+            "state": "closed",
             "created_at": "2024-11-11T20:25:45Z",
-            "updated_at": "2024-11-11T20:25:46Z",
+            "updated_at": "2024-11-15T17:01:47Z",
             "author": "tobias-klein"
           },
           {
@@ -5844,28 +6044,12 @@
             "created_at": "2024-11-10T14:07:45Z",
             "updated_at": "2024-11-11T18:12:23Z",
             "author": "tobias-klein"
-          },
-          {
-            "id": 1147,
-            "title": "Update Electron to version 32.2.3 to improve note taking under Wayland",
-            "state": "closed",
-            "created_at": "2024-11-08T07:42:37Z",
-            "updated_at": "2024-11-11T18:12:24Z",
-            "author": "tobias-klein"
-          },
-          {
-            "id": 1146,
-            "title": "Update electron -> 33.0.2 to improve note taking under Wayland",
-            "state": "closed",
-            "created_at": "2024-11-04T02:01:36Z",
-            "updated_at": "2024-11-10T05:05:14Z",
-            "author": "ormris"
           }
         ]
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 578
+          "total_commits_last_year": 580
         },
         "repository_activity": {
           "last_updated": null,
@@ -5999,7 +6183,7 @@
         "description": "FreeShow is a free and open-source, user-friendly presenter software.",
         "url": "https://github.com/ChurchApps/FreeShow",
         "created_at": "2021-08-06T18:27:40Z",
-        "last_updated": "2024-11-14T19:32:39Z",
+        "last_updated": "2024-11-15T19:56:21Z",
         "default_branch": "main",
         "is_archived": false,
         "is_fork": false,
@@ -6009,7 +6193,7 @@
       "metrics": {
         "stars": 562,
         "forks": 88,
-        "open_issues": 14,
+        "open_issues": 15,
         "contributors": {
           "total_count": 7,
           "top_contributors": ["vassbo", "jzongker", "lubomsky", "filiphanes", "albanobattistella"]
@@ -6038,19 +6222,27 @@
       "issues": {
         "summary": {
           "total_count": 100,
-          "open_count": 8,
-          "closed_count": 92
+          "open_count": 9,
+          "closed_count": 91
         },
-        "labels": ["enhancement", "question", "electron", "documentation", "duplicate", "bug"],
+        "labels": ["bug", "electron", "documentation", "duplicate", "question", "enhancement"],
         "features": {
           "has_assignees": false,
           "has_milestones": false
         },
         "engagement": {
           "issues_with_comments": 87,
-          "average_comments": 2.82
+          "average_comments": 2.83
         },
         "recent_activity": [
+          {
+            "id": 1020,
+            "title": "How to show different looks to screen and live stream?",
+            "state": "open",
+            "created_at": "2024-11-15T15:54:03Z",
+            "updated_at": "2024-11-15T20:50:39Z",
+            "author": "AngangGuo"
+          },
           {
             "id": 1019,
             "title": "1.3.1",
@@ -6081,14 +6273,6 @@
             "state": "closed",
             "created_at": "2024-11-13T14:46:33Z",
             "updated_at": "2024-11-15T06:59:47Z",
-            "author": "DAcodedBEAT"
-          },
-          {
-            "id": 1015,
-            "title": "fix(tests): adjust timeouts and flow to ensure test reliability",
-            "state": "closed",
-            "created_at": "2024-11-13T04:22:32Z",
-            "updated_at": "2024-11-13T07:13:47Z",
             "author": "DAcodedBEAT"
           }
         ]
@@ -6263,7 +6447,7 @@
         "website": "https://mattrobertson.dev",
         "company": "Crossway",
         "public_repos": 32,
-        "followers": 24,
+        "followers": 25,
         "following": 18,
         "created_at": "2013-04-04T19:19:09Z",
         "updated_at": "2024-10-29T18:46:41Z",
@@ -6284,16 +6468,16 @@
           "closed_count": 60
         },
         "labels": [
-          "enhancement",
-          "planning",
+          "bug",
           "user-requested",
           "refactor",
-          "chore",
           "feature",
           "wontfix",
-          "crash",
           "help-wanted",
-          "bug"
+          "planning",
+          "enhancement",
+          "crash",
+          "chore"
         ],
         "features": {
           "has_assignees": true,
@@ -6348,7 +6532,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 0
+          "total_commits_last_year": 16
         },
         "repository_activity": {
           "last_updated": null,
@@ -6395,7 +6579,7 @@
         "website": "https://mattrobertson.dev",
         "company": "Crossway",
         "public_repos": 32,
-        "followers": 24,
+        "followers": 25,
         "following": 18,
         "created_at": "2013-04-04T19:19:09Z",
         "updated_at": "2024-10-29T18:46:41Z",
@@ -6730,7 +6914,7 @@
         "description": "Jethro Pastoral Ministry Manager",
         "url": "https://github.com/tbar0970/jethro-pmm",
         "created_at": "2014-04-19T11:43:16Z",
-        "last_updated": "2024-11-15T06:04:16Z",
+        "last_updated": "2024-11-15T11:10:09Z",
         "default_branch": "master",
         "is_archived": false,
         "is_fork": false,
@@ -6740,7 +6924,7 @@
       "metrics": {
         "stars": 35,
         "forks": 26,
-        "open_issues": 264,
+        "open_issues": 261,
         "contributors": {
           "total_count": 11,
           "top_contributors": ["tbar0970", "vanoudt", "jefft", "alwr", "s4069b"]
@@ -6775,25 +6959,25 @@
       "issues": {
         "summary": {
           "total_count": 100,
-          "open_count": 24,
-          "closed_count": 76
+          "open_count": 21,
+          "closed_count": 79
         },
         "labels": [
-          "question",
-          "severity-medium",
-          "severity-low",
-          "severity-high",
-          "feature-request",
           "bug",
-          "Quickfix"
+          "Quickfix",
+          "severity-high",
+          "severity-medium",
+          "feature-request",
+          "question",
+          "severity-low"
         ],
         "features": {
           "has_assignees": true,
           "has_milestones": false
         },
         "engagement": {
-          "issues_with_comments": 55,
-          "average_comments": 1.34
+          "issues_with_comments": 56,
+          "average_comments": 1.35
         },
         "recent_activity": [
           {
@@ -6840,7 +7024,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 139
+          "total_commits_last_year": 147
         },
         "repository_activity": {
           "last_updated": null,
@@ -7076,7 +7260,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 0
+          "total_commits_last_year": 82
         },
         "repository_activity": {
           "last_updated": null,
@@ -7325,7 +7509,7 @@
         "description": "Take Bible Study notes easily in the popular note-taking app Obsidian, with automatic verse and reference suggestions.",
         "url": "https://github.com/tim-hub/obsidian-bible-reference",
         "created_at": "2021-09-18T22:58:19Z",
-        "last_updated": "2024-11-14T20:39:05Z",
+        "last_updated": "2024-11-15T22:03:27Z",
         "default_branch": "master",
         "is_archived": false,
         "is_fork": false,
@@ -7333,7 +7517,7 @@
         "license": "MIT License"
       },
       "metrics": {
-        "stars": 237,
+        "stars": 238,
         "forks": 42,
         "open_issues": 5,
         "contributors": {
@@ -7379,7 +7563,7 @@
           "open_count": 5,
           "closed_count": 95
         },
-        "labels": ["enhancement", "wontfix", "duplicate", "dependencies", "bug", "version"],
+        "labels": ["bug", "dependencies", "version", "duplicate", "wontfix", "enhancement"],
         "features": {
           "has_assignees": true,
           "has_milestones": false
@@ -7447,121 +7631,6 @@
     {
       "platform": "github",
       "metadata": {
-        "name": "old",
-        "owner": "bibledit",
-        "description": "Older code for Bibledit",
-        "url": "https://github.com/bibledit/old",
-        "created_at": "2014-10-28T17:47:09Z",
-        "last_updated": "2022-02-09T11:19:37Z",
-        "default_branch": "master",
-        "is_archived": false,
-        "is_fork": false,
-        "primary_language": null,
-        "license": "Unknown"
-      },
-      "metrics": {
-        "stars": 10,
-        "forks": 7,
-        "open_issues": 0,
-        "contributors": {
-          "total_count": 3,
-          "top_contributors": ["teusbenschop", "postiffm", "alerque"]
-        }
-      },
-      "owner_info": {
-        "type": "organization",
-        "name": "Bibledit",
-        "display_name": "Bibledit",
-        "url": "https://github.com/bibledit",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13251906?v=4",
-        "description": "Bible translation software: translate any Bible, at any time, anywhere, on any device",
-        "location": null,
-        "email": null,
-        "website": "http://bibledit.org",
-        "public_repos": 12,
-        "created_at": "2015-07-09T08:35:00Z",
-        "updated_at": "2016-04-30T12:03:43Z",
-        "members_count": 2,
-        "repos_count": 12,
-        "social_links": {
-          "twitter": null,
-          "website": "http://bibledit.org"
-        }
-      },
-      "issues": {
-        "summary": {
-          "total_count": 100,
-          "open_count": 0,
-          "closed_count": 100
-        },
-        "labels": ["enhancement", "question", "invalid", "wontfix", "bug"],
-        "features": {
-          "has_assignees": true,
-          "has_milestones": true
-        },
-        "engagement": {
-          "issues_with_comments": 35,
-          "average_comments": 1.19
-        },
-        "recent_activity": [
-          {
-            "id": 584,
-            "title": "Quit at midnight code",
-            "state": "closed",
-            "created_at": "2017-05-24T17:13:36Z",
-            "updated_at": "2017-05-26T10:41:52Z",
-            "author": "teusbenschop"
-          },
-          {
-            "id": 583,
-            "title": "Update install.sh for libmimetic",
-            "state": "closed",
-            "created_at": "2017-05-24T15:16:15Z",
-            "updated_at": "2017-05-26T10:42:13Z",
-            "author": "teusbenschop"
-          },
-          {
-            "id": 582,
-            "title": "two-way send/receive to git repository  by default.",
-            "state": "closed",
-            "created_at": "2017-05-23T12:16:36Z",
-            "updated_at": "2017-05-26T10:42:48Z",
-            "author": "teusbenschop"
-          },
-          {
-            "id": 581,
-            "title": "vm_statistics64 stats' has incomplete type and cannot be defined",
-            "state": "closed",
-            "created_at": "2017-05-22T10:26:32Z",
-            "updated_at": "2017-05-26T10:42:57Z",
-            "author": "teusbenschop"
-          },
-          {
-            "id": 580,
-            "title": "Investigate basics of Universal Windows App",
-            "state": "closed",
-            "created_at": "2017-05-20T17:28:51Z",
-            "updated_at": "2017-05-26T10:43:18Z",
-            "author": "teusbenschop"
-          }
-        ]
-      },
-      "contributions": {
-        "commit_activity": {
-          "total_commits_last_year": 0
-        },
-        "repository_activity": {
-          "last_updated": null,
-          "recent_releases": []
-        }
-      },
-      "original_name": "Bibledit",
-      "original_description": "Bibledit is a suite of Bible translation tools supporting translators with drafting, checking, and publishing.",
-      "original_url": "https://github.com/bibledit/bibledit"
-    },
-    {
-      "platform": "github",
-      "metadata": {
         "name": "onebody",
         "owner": "seven1m",
         "description": "private member portal for churches, built with Ruby on Rails",
@@ -7596,7 +7665,7 @@
         "company": null,
         "public_repos": 118,
         "followers": 747,
-        "following": 326,
+        "following": 327,
         "created_at": "2008-02-23T06:10:43Z",
         "updated_at": "2024-10-25T21:57:47Z",
         "social_links": {
@@ -7615,7 +7684,7 @@
           "open_count": 6,
           "closed_count": 94
         },
-        "labels": ["deployment", "in progress", "ready", "NOT READY", "bug", "feature request"],
+        "labels": ["bug", "ready", "NOT READY", "in progress", "feature request", "deployment"],
         "features": {
           "has_assignees": true,
           "has_milestones": false
@@ -7723,7 +7792,7 @@
         "company": null,
         "public_repos": 118,
         "followers": 747,
-        "following": 326,
+        "following": 327,
         "created_at": "2008-02-23T06:10:43Z",
         "updated_at": "2024-10-25T21:57:47Z",
         "social_links": {
@@ -7796,7 +7865,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 1
+          "total_commits_last_year": 0
         },
         "repository_activity": {
           "last_updated": null,
@@ -7843,7 +7912,7 @@
         "website": "",
         "company": null,
         "public_repos": 25,
-        "followers": 11,
+        "followers": 12,
         "following": 42,
         "created_at": "2021-04-17T04:33:12Z",
         "updated_at": "2024-08-01T01:39:59Z",
@@ -7863,7 +7932,7 @@
           "open_count": 2,
           "closed_count": 6
         },
-        "labels": [".NET", "github_actions", "dependencies"],
+        "labels": ["dependencies", "github_actions", ".NET"],
         "features": {
           "has_assignees": false,
           "has_milestones": false
@@ -7936,7 +8005,7 @@
         "description": "OpenLP is free church presentation software, or lyrics projection software, used to display slides of songs, Bible verses, videos, images, and even presentations. See more at https://openlp.org/",
         "url": "https://gitlab.com/openlp/openlp",
         "created_at": "2019-09-16T19:01:26.049Z",
-        "last_updated": "2024-11-15T04:39:43.495Z",
+        "last_updated": "2024-11-15T19:34:32.715Z",
         "default_branch": "master",
         "is_archived": false,
         "is_fork": false,
@@ -7945,7 +8014,7 @@
       },
       "metrics": {
         "stars": 111,
-        "forks": 131,
+        "forks": 130,
         "open_issues": 257,
         "contributors": {
           "total_count": 20,
@@ -7986,13 +8055,13 @@
         },
         "labels": [
           "3.1.x",
-          "Theme",
-          "3.1.0rc3",
           "Priority::High",
-          "Feature Request",
-          "3.1.0RC2",
           "3.0.x",
-          "Confirmed"
+          "3.1.0rc3",
+          "3.1.0RC2",
+          "Confirmed",
+          "Feature Request",
+          "Theme"
         ],
         "features": {
           "has_assignees": true,
@@ -8138,7 +8207,7 @@
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 37
+          "total_commits_last_year": 0
         },
         "repository_activity": {
           "last_updated": null,
@@ -8289,13 +8358,13 @@
           "closed_count": 47
         },
         "labels": [
-          "enhancement",
+          "bug",
+          "dependencies",
+          "infrastructure",
           "ruby",
           ".NET",
-          "infrastructure",
           "wontfix",
-          "dependencies",
-          "bug"
+          "enhancement"
         ],
         "features": {
           "has_assignees": true,
@@ -8369,7 +8438,7 @@
         "description": "Open source projection software for churches.",
         "url": "https://github.com/quelea-projection/Quelea",
         "created_at": "2018-05-23T19:04:26Z",
-        "last_updated": "2024-10-31T03:21:13Z",
+        "last_updated": "2024-11-15T23:04:40Z",
         "default_branch": "master",
         "is_archived": false,
         "is_fork": false,
@@ -8377,7 +8446,7 @@
         "license": "GNU General Public License v3.0"
       },
       "metrics": {
-        "stars": 160,
+        "stars": 161,
         "forks": 147,
         "open_issues": 111,
         "contributors": {
@@ -8412,13 +8481,13 @@
           "closed_count": 76
         },
         "labels": [
-          "enhancement",
-          "hacktoberfest-accepted",
-          "good first issue",
-          "importer",
           "bug",
+          "importer",
+          "good first issue",
           "accepted",
-          "hacktoberfest"
+          "hacktoberfest",
+          "enhancement",
+          "hacktoberfest-accepted"
         ],
         "features": {
           "has_assignees": true,
@@ -8485,6 +8554,86 @@
       "original_url": "https://github.com/quelea-projection/Quelea"
     },
     {
+      "platform": "gitlab",
+      "metadata": {
+        "name": "app",
+        "owner": "remem-me",
+        "description": "Open Source client for the popular Bible memory app Remember Me, using Flutter",
+        "url": "https://gitlab.com/remem-me/app",
+        "created_at": "2019-08-23T15:37:30.832Z",
+        "last_updated": "2024-11-15T07:17:02.789Z",
+        "default_branch": "develop",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 7,
+        "forks": 3,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 11,
+          "top_contributors": [
+            "Jes\u00fas  Erro",
+            "joejoe2016",
+            "\u674e\u4fca\u4f51",
+            "Dorottya Antal",
+            "Peter Schaffl\u00fctzel"
+          ]
+        }
+      },
+      "owner_info": {
+        "type": "group",
+        "name": "remem.me",
+        "display_name": "remem.me",
+        "url": "https://gitlab.com/remem-me",
+        "avatar_url": "https://gitlab.com/uploads/-/system/group/avatar/5909371/app_icon_win358.png",
+        "description": "Projects related to the Bible memorization app Remember Me",
+        "location": "",
+        "email": "",
+        "website": "",
+        "public_repos": 0,
+        "created_at": "2019-08-23T15:25:01.809Z",
+        "updated_at": "",
+        "members_count": 11,
+        "repos_count": null,
+        "social_links": {
+          "website": null,
+          "twitter": null
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 0,
+          "open_count": 0,
+          "closed_count": 0
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0
+        },
+        "recent_activity": []
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 20
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Remember Me",
+      "original_description": "The free, fun, and effective way to memorize Bible verses",
+      "original_url": "https://gitlab.com/remem-me/app"
+    },
+    {
       "platform": "github",
       "metadata": {
         "name": "Rock",
@@ -8492,7 +8641,7 @@
         "description": "An open source CMS, Relationship Management System (RMS) and Church Management System (ChMS) all rolled into one.",
         "url": "https://github.com/SparkDevNetwork/Rock",
         "created_at": "2011-04-14T13:11:46Z",
-        "last_updated": "2024-11-14T23:48:53Z",
+        "last_updated": "2024-11-15T23:09:08Z",
         "default_branch": "develop",
         "is_archived": false,
         "is_fork": false,
@@ -8501,8 +8650,8 @@
       },
       "metrics": {
         "stars": 580,
-        "forks": 354,
-        "open_issues": 25,
+        "forks": 353,
+        "open_issues": 24,
         "contributors": {
           "total_count": 30,
           "top_contributors": [
@@ -8537,77 +8686,76 @@
       "issues": {
         "summary": {
           "total_count": 100,
-          "open_count": 21,
-          "closed_count": 79
+          "open_count": 20,
+          "closed_count": 80
         },
         "labels": [
-          "Fixed in v16.7",
-          "Topic: Communications",
-          "Type: Discussion",
-          "Topic: CRM",
           "Status: In Dev Queue",
+          "Topic: Group",
+          "Topic: CRM",
+          "Type: Discussion",
+          "Fixed in v17.0",
+          "Topic: Communications",
+          "Topic: Check-in",
+          "Fixed in v16.7",
           "Type: Bug",
           "Not Yet Reproduced",
-          "Topic: Group",
-          "Status: Confirmed",
-          "Topic: Check-in",
-          "Fixed in v17.0",
-          "Fixed in v16.6"
+          "Status: Confirmed"
         ],
         "features": {
           "has_assignees": false,
           "has_milestones": false
         },
         "engagement": {
-          "issues_with_comments": 59,
-          "average_comments": 1.39
+          "issues_with_comments": 60,
+          "average_comments": 1.5
         },
         "recent_activity": [
           {
-            "id": 6081,
-            "title": "[Alpha 1.16.7.2]-NextGen Checkin-Kiosk Setup page accessible without being logged in",
+            "id": 6087,
+            "title": "[Alpha 1.16.7.2] Next Gen Check-in - Saved Configurations Disappear When Hovering",
+            "state": "closed",
+            "created_at": "2024-11-15T20:33:58Z",
+            "updated_at": "2024-11-15T21:59:52Z",
+            "author": "mikedotmundy"
+          },
+          {
+            "id": 6086,
+            "title": "[Alpha 1.16.7.2] Reviewing a Registration with Payment Plan Showing Amount Due As $0.00",
             "state": "open",
-            "created_at": "2024-11-14T23:50:24Z",
-            "updated_at": "2024-11-14T23:54:43Z",
+            "created_at": "2024-11-15T19:52:08Z",
+            "updated_at": "2024-11-15T20:11:43Z",
+            "author": "SkellyRen"
+          },
+          {
+            "id": 6085,
+            "title": "[Alpha 1.16.7.2] Registration Payment Plan Not Working",
+            "state": "open",
+            "created_at": "2024-11-15T17:36:34Z",
+            "updated_at": "2024-11-15T23:21:49Z",
+            "author": "mikedotmundy"
+          },
+          {
+            "id": 6084,
+            "title": "[Alpha 1.16.7.2]-NextGen Checkin-Reprint Labels screen usability",
+            "state": "open",
+            "created_at": "2024-11-15T13:35:09Z",
+            "updated_at": "2024-11-15T13:35:09Z",
             "author": "kimlongcr"
           },
           {
-            "id": 6080,
-            "title": "[Alpha 1.16.7.2] Next Gen Check-in - New block is not auto refreshing page after changes",
+            "id": 6083,
+            "title": "[Alpha 1.16.7.2]-NextGen Checkin-Configuration Refresh issues after adding a configuration",
             "state": "open",
-            "created_at": "2024-11-14T23:27:46Z",
-            "updated_at": "2024-11-14T23:28:19Z",
-            "author": "kimlongcr"
-          },
-          {
-            "id": 6079,
-            "title": "[Alpha 1.16.7.2] Next Gen Check-in - Kiosk not automatically changing with schedule changes",
-            "state": "open",
-            "created_at": "2024-11-14T23:18:41Z",
-            "updated_at": "2024-11-14T23:19:14Z",
-            "author": "kimlongcr"
-          },
-          {
-            "id": 6078,
-            "title": "[Alpha 1.16.7.2] Next Gen Checkin-Cancel out of edit family or add family screen takes you back to the beginning",
-            "state": "open",
-            "created_at": "2024-11-14T23:04:27Z",
-            "updated_at": "2024-11-14T23:17:42Z",
-            "author": "kimlongcr"
-          },
-          {
-            "id": 6077,
-            "title": "[Alpha 1.16.7.2] Next Gen Checkin-Supervisor Login Code is not Masked",
-            "state": "open",
-            "created_at": "2024-11-14T22:56:56Z",
-            "updated_at": "2024-11-14T23:17:57Z",
+            "created_at": "2024-11-15T13:20:05Z",
+            "updated_at": "2024-11-15T13:20:05Z",
             "author": "kimlongcr"
           }
         ]
       },
       "contributions": {
         "commit_activity": {
-          "total_commits_last_year": 3421
+          "total_commits_last_year": 3458
         },
         "repository_activity": {
           "last_updated": null,
@@ -8617,6 +8765,1654 @@
       "original_name": "Rock RMS",
       "original_description": "Rock RMS is a community-supported open-source church management system with a wide range of features.",
       "original_url": "https://github.com/SparkDevNetwork/Rock"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "web-xforge",
+        "owner": "sillsdev",
+        "description": "Scripture Forge: Collaborative translation with suggestions and community Scripture checking; all connected to Paratext",
+        "url": "https://github.com/sillsdev/web-xforge",
+        "created_at": "2019-04-27T03:43:35Z",
+        "last_updated": "2024-11-15T15:47:51Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "TypeScript",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 9,
+        "forks": 5,
+        "open_issues": 14,
+        "contributors": {
+          "total_count": 29,
+          "top_contributors": ["Nateowami", "RaymondLuong3", "pmachapman", "ddaspit", "marksvc"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "SIL LSDev",
+        "display_name": "SIL LSDev",
+        "url": "https://github.com/sillsdev",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1095739?v=4",
+        "description": "SIL's Language Software Development",
+        "location": null,
+        "email": null,
+        "website": "https://www.sil.org/",
+        "public_repos": 275,
+        "created_at": "2011-10-02T00:05:38Z",
+        "updated_at": "2024-07-03T22:32:55Z",
+        "members_count": 8,
+        "repos_count": 30,
+        "social_links": {
+          "twitter": null,
+          "website": "https://www.sil.org/"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 9,
+          "closed_count": 91
+        },
+        "labels": [
+          "bug",
+          "new feature",
+          "blocker",
+          "testing complete",
+          "dependencies",
+          "ready to test",
+          "Critical Path",
+          "will require testing",
+          "testing not required",
+          "enhancement"
+        ],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 100,
+          "average_comments": 1.86
+        },
+        "recent_activity": [
+          {
+            "id": 2856,
+            "title": "dev: update machine setup",
+            "state": "open",
+            "created_at": "2024-11-15T22:07:43Z",
+            "updated_at": "2024-11-15T22:16:17Z",
+            "author": "marksvc"
+          },
+          {
+            "id": 2855,
+            "title": "Update all translation files from Crowdin",
+            "state": "open",
+            "created_at": "2024-11-15T18:42:42Z",
+            "updated_at": "2024-11-15T23:00:37Z",
+            "author": "Nateowami"
+          },
+          {
+            "id": 2854,
+            "title": "SF-3080 Remove enable translation suggestions from connect settings",
+            "state": "closed",
+            "created_at": "2024-11-14T19:28:24Z",
+            "updated_at": "2024-11-15T15:48:05Z",
+            "author": "RaymondLuong3"
+          },
+          {
+            "id": 2853,
+            "title": "SF-3081 Show draft queued immediately when job started",
+            "state": "open",
+            "created_at": "2024-11-14T17:43:39Z",
+            "updated_at": "2024-11-15T22:54:34Z",
+            "author": "RaymondLuong3"
+          },
+          {
+            "id": 2852,
+            "title": "Update all translation files from Crowdin",
+            "state": "closed",
+            "created_at": "2024-11-14T17:15:53Z",
+            "updated_at": "2024-11-14T20:19:35Z",
+            "author": "Nateowami"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 648
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Scripture Forge",
+      "original_description": "A collaborative platform for scripture translation and community checking, developed by SIL International.",
+      "original_url": "https://github.com/sillsdev/web-xforge"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "softprojector",
+        "owner": "SoftProjector",
+        "description": "Church media presentation software",
+        "url": "https://github.com/SoftProjector/softprojector",
+        "created_at": "2017-01-20T22:01:35Z",
+        "last_updated": "2024-08-19T17:43:31Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "C++",
+        "license": "GNU General Public License v3.0"
+      },
+      "metrics": {
+        "stars": 48,
+        "forks": 29,
+        "open_issues": 33,
+        "contributors": {
+          "total_count": 8,
+          "top_contributors": ["vladozar", "ge022", "ItsSK", "MaxKam", "vitaliyzha"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": null,
+        "display_name": null,
+        "url": "https://github.com/SoftProjector",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18703642?v=4",
+        "description": "Church media presentation software",
+        "location": null,
+        "email": null,
+        "website": "softprojector.org",
+        "public_repos": 6,
+        "created_at": "2016-04-27T15:30:36Z",
+        "updated_at": "2017-01-22T18:40:35Z",
+        "members_count": 0,
+        "repos_count": 6,
+        "social_links": {
+          "twitter": null,
+          "website": "softprojector.org"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 73,
+          "open_count": 33,
+          "closed_count": 40
+        },
+        "labels": ["bug", "duplicate", "Database", "question", "enhancement"],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": true
+        },
+        "engagement": {
+          "issues_with_comments": 50,
+          "average_comments": 1.6712328767123288
+        },
+        "recent_activity": [
+          {
+            "id": 73,
+            "title": "Migration to Qt6",
+            "state": "open",
+            "created_at": "2024-03-13T20:08:46Z",
+            "updated_at": "2024-03-16T15:51:12Z",
+            "author": "vladozar"
+          },
+          {
+            "id": 72,
+            "title": "black bars over and below a verse",
+            "state": "open",
+            "created_at": "2023-10-30T11:51:27Z",
+            "updated_at": "2023-10-30T18:24:23Z",
+            "author": "LukasPleis"
+          },
+          {
+            "id": 71,
+            "title": "Windows 11 crashes",
+            "state": "open",
+            "created_at": "2023-02-19T17:15:20Z",
+            "updated_at": "2023-04-05T11:37:45Z",
+            "author": "Pavlo-178"
+          },
+          {
+            "id": 70,
+            "title": "SoftProjector displayed under Form using macOS",
+            "state": "open",
+            "created_at": "2022-04-21T05:14:18Z",
+            "updated_at": "2022-04-21T05:14:18Z",
+            "author": "lotgpresentation"
+          },
+          {
+            "id": 69,
+            "title": "Website is down",
+            "state": "closed",
+            "created_at": "2022-03-10T15:46:45Z",
+            "updated_at": "2022-04-05T23:37:46Z",
+            "author": "jvkolyadich"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "softProjector",
+      "original_description": "Powerful, yet easy-to-use Bible/Lyric projection software",
+      "original_url": "https://github.com/SoftProjector/softprojector"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "stello",
+        "owner": "gracious-tech",
+        "description": "Send secure newsletters",
+        "url": "https://github.com/gracious-tech/stello",
+        "created_at": "2020-12-21T15:34:00Z",
+        "last_updated": "2024-11-15T07:49:44Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "TypeScript",
+        "license": "MIT No Attribution"
+      },
+      "metrics": {
+        "stars": 13,
+        "forks": 0,
+        "open_issues": 1,
+        "contributors": {
+          "total_count": 2,
+          "top_contributors": ["shadow-light", "dependabot[bot]"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "Gracious Tech",
+        "display_name": "Gracious Tech",
+        "url": "https://github.com/gracious-tech",
+        "avatar_url": "https://avatars.githubusercontent.com/u/42055739?v=4",
+        "description": "",
+        "location": null,
+        "email": null,
+        "website": "https://gracious.tech/",
+        "public_repos": 9,
+        "created_at": "2018-08-03T05:16:41Z",
+        "updated_at": "2021-08-15T00:27:59Z",
+        "members_count": 0,
+        "repos_count": 9,
+        "social_links": {
+          "twitter": null,
+          "website": "https://gracious.tech/"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 18,
+          "open_count": 1,
+          "closed_count": 17
+        },
+        "labels": ["dependencies"],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 8,
+          "average_comments": 0.5555555555555556
+        },
+        "recent_activity": [
+          {
+            "id": 18,
+            "title": "Missing \"Hide Stello\" menu option on macOS",
+            "state": "open",
+            "created_at": "2023-06-10T04:41:03Z",
+            "updated_at": "2024-11-03T12:53:23Z",
+            "author": "rosseji"
+          },
+          {
+            "id": 17,
+            "title": "SMTP server setup requires an email as the username",
+            "state": "closed",
+            "created_at": "2023-05-27T14:49:12Z",
+            "updated_at": "2023-05-28T01:31:00Z",
+            "author": "pepa65"
+          },
+          {
+            "id": 16,
+            "title": "Stello AppImage wont run from a Samba share",
+            "state": "closed",
+            "created_at": "2023-02-09T23:04:54Z",
+            "updated_at": "2023-02-12T21:26:12Z",
+            "author": "toby-1-kenobi"
+          },
+          {
+            "id": 15,
+            "title": "Bump ansi-regex from 5.0.0 to 5.0.1 in /electron",
+            "state": "closed",
+            "created_at": "2021-11-19T01:37:48Z",
+            "updated_at": "2021-11-19T01:42:33Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "id": 14,
+            "title": "Bump path-parse from 1.0.6 to 1.0.7 in /app",
+            "state": "closed",
+            "created_at": "2021-09-04T09:16:18Z",
+            "updated_at": "2021-11-19T01:42:33Z",
+            "author": "dependabot[bot]"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 84
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "stello",
+      "original_description": "Hundreds of missionaries from dozens of mission organisations rely on Stello to stay in touch with their supporters, without compromising their privacy.",
+      "original_url": "https://github.com/gracious-tech/stello"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "sword_drill",
+        "owner": "meichthys",
+        "description": "Displays Bible verses from parsed microphone input.",
+        "url": "https://github.com/meichthys/sword_drill",
+        "created_at": "2021-03-22T00:33:13Z",
+        "last_updated": "2024-09-09T18:33:48Z",
+        "default_branch": "main",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Python",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 6,
+        "forks": 1,
+        "open_issues": 11,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["meichthys"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "MeIchthys",
+        "display_name": "MeIchthys",
+        "url": "https://github.com/meichthys",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10717998?v=4",
+        "bio": "Life is short. (Jm. 4:14)\r\nCheck your priorities. ",
+        "location": null,
+        "email": null,
+        "website": "",
+        "company": null,
+        "public_repos": 101,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2015-01-27T01:36:47Z",
+        "updated_at": "2024-11-13T21:36:17Z",
+        "social_links": {
+          "twitter": null,
+          "website": ""
+        },
+        "hireable": null,
+        "public_gists": 0,
+        "twitter": null,
+        "recent_activity_count": 0,
+        "repos_count": 30
+      },
+      "issues": {
+        "summary": {
+          "total_count": 23,
+          "open_count": 11,
+          "closed_count": 12
+        },
+        "labels": ["bug", "enhancement", "refactoring", "testing", "help wanted"],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": true
+        },
+        "engagement": {
+          "issues_with_comments": 9,
+          "average_comments": 0.4782608695652174
+        },
+        "recent_activity": [
+          {
+            "id": 23,
+            "title": "Ezekiel Ezekiel 1 displays wrong (?)",
+            "state": "open",
+            "created_at": "2021-04-11T16:03:03Z",
+            "updated_at": "2021-04-11T16:03:03Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 22,
+            "title": "Handle multiple verse references",
+            "state": "open",
+            "created_at": "2021-04-11T15:44:55Z",
+            "updated_at": "2021-04-11T15:45:07Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 21,
+            "title": "Display chapter references",
+            "state": "open",
+            "created_at": "2021-04-11T15:42:59Z",
+            "updated_at": "2021-04-11T15:45:24Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 20,
+            "title": "Add GithubAction for creating .app",
+            "state": "open",
+            "created_at": "2021-04-05T23:46:33Z",
+            "updated_at": "2021-04-11T15:45:36Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 19,
+            "title": "Github Action for building .exe",
+            "state": "open",
+            "created_at": "2021-04-05T23:46:08Z",
+            "updated_at": "2021-04-11T15:45:50Z",
+            "author": "meichthys"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 1
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Sword Drill",
+      "original_description": "Displays verse text on screen when audio verse reference is spoken",
+      "original_url": "https://github.com/meichthys/sword_drill"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "sword_studybibles",
+        "owner": "AndBible",
+        "description": "Convert Study Bible ePub files into SWORD modules",
+        "url": "https://github.com/AndBible/sword_studybibles",
+        "created_at": "2015-06-03T16:37:15Z",
+        "last_updated": "2024-07-13T02:44:08Z",
+        "default_branch": "develop",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Python",
+        "license": "GNU General Public License v3.0"
+      },
+      "metrics": {
+        "stars": 24,
+        "forks": 6,
+        "open_issues": 4,
+        "contributors": {
+          "total_count": 3,
+          "top_contributors": ["tuomas2", "LGrebenc", "meichthys"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "And Bible",
+        "display_name": "And Bible",
+        "url": "https://github.com/AndBible",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44909846?v=4",
+        "description": "AndBible: Bible Study",
+        "location": null,
+        "email": "help.andbible@gmail.com",
+        "website": "http://andbible.org",
+        "public_repos": 17,
+        "created_at": "2018-11-09T21:02:34Z",
+        "updated_at": "2024-07-15T11:12:57Z",
+        "members_count": 0,
+        "repos_count": 17,
+        "social_links": {
+          "twitter": null,
+          "website": "http://andbible.org"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 12,
+          "open_count": 4,
+          "closed_count": 8
+        },
+        "labels": ["dependencies"],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 5,
+          "average_comments": 1.0
+        },
+        "recent_activity": [
+          {
+            "id": 12,
+            "title": "Fixed osis2mod tool link in README",
+            "state": "closed",
+            "created_at": "2024-05-07T18:15:35Z",
+            "updated_at": "2024-05-23T07:09:18Z",
+            "author": "LGrebenc"
+          },
+          {
+            "id": 11,
+            "title": "Remove link to online version",
+            "state": "closed",
+            "created_at": "2024-04-10T00:45:18Z",
+            "updated_at": "2024-04-10T05:57:29Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 10,
+            "title": "Online version no longer available",
+            "state": "closed",
+            "created_at": "2024-04-09T02:41:49Z",
+            "updated_at": "2024-04-10T05:57:30Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 9,
+            "title": "Bump jinja2 from 2.10 to 3.1.3",
+            "state": "open",
+            "created_at": "2024-01-11T15:25:22Z",
+            "updated_at": "2024-01-11T15:25:23Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "id": 8,
+            "title": "Bump lxml from 4.2.1 to 4.6.3",
+            "state": "open",
+            "created_at": "2021-03-31T18:34:12Z",
+            "updated_at": "2021-03-31T18:34:12Z",
+            "author": "dependabot[bot]"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 2
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "sword_studybibles",
+      "original_description": "Convert Study Bible ePub files into SWORD modules",
+      "original_url": "https://github.com/AndBible/sword_studybibles"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "theographic-bible-metadata",
+        "owner": "robertrouse",
+        "description": "A knowledge graph of biblical people, places, periods, and passages.",
+        "url": "https://github.com/robertrouse/theographic-bible-metadata",
+        "created_at": "2012-03-30T16:10:24Z",
+        "last_updated": "2024-11-04T15:39:32Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": null,
+        "license": "Creative Commons Attribution Share Alike 4.0 International"
+      },
+      "metrics": {
+        "stars": 221,
+        "forks": 67,
+        "open_issues": 5,
+        "contributors": {
+          "total_count": 5,
+          "top_contributors": [
+            "robertrouse",
+            "hanleyhansen",
+            "samjusaitis",
+            "styfle",
+            "PaulBrownMagic"
+          ]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Robert Rouse",
+        "display_name": "Robert Rouse",
+        "url": "https://github.com/robertrouse",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1233286?v=4",
+        "bio": null,
+        "location": null,
+        "email": null,
+        "website": "viz.bible",
+        "company": null,
+        "public_repos": 7,
+        "followers": 63,
+        "following": 9,
+        "created_at": "2011-12-01T11:44:32Z",
+        "updated_at": "2024-09-30T18:51:02Z",
+        "social_links": {
+          "twitter": null,
+          "website": "viz.bible"
+        },
+        "hireable": null,
+        "public_gists": 0,
+        "twitter": null,
+        "recent_activity_count": 0,
+        "repos_count": 7
+      },
+      "issues": {
+        "summary": {
+          "total_count": 24,
+          "open_count": 5,
+          "closed_count": 19
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 15,
+          "average_comments": 0.7916666666666666
+        },
+        "recent_activity": [
+          {
+            "id": 24,
+            "title": "Adding recogito Trogyllium data into the Places JSON file",
+            "state": "open",
+            "created_at": "2024-03-13T18:22:34Z",
+            "updated_at": "2024-03-25T23:45:49Z",
+            "author": "alicercedigital"
+          },
+          {
+            "id": 23,
+            "title": "Removing a null value from writers in Psalms on books database",
+            "state": "open",
+            "created_at": "2024-03-13T15:34:05Z",
+            "updated_at": "2024-03-13T18:07:58Z",
+            "author": "alicercedigital"
+          },
+          {
+            "id": 22,
+            "title": "Fix null value on writers in Psalms",
+            "state": "closed",
+            "created_at": "2024-03-13T14:59:24Z",
+            "updated_at": "2024-03-13T15:09:57Z",
+            "author": "alicercedigital"
+          },
+          {
+            "id": 21,
+            "title": "Add License",
+            "state": "closed",
+            "created_at": "2024-03-12T04:16:17Z",
+            "updated_at": "2024-03-12T13:46:24Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 20,
+            "title": "modified a php file.",
+            "state": "closed",
+            "created_at": "2023-12-19T10:24:31Z",
+            "updated_at": "2023-12-19T10:24:53Z",
+            "author": "MasaruKitajima"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 3
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "theographic-bible-metadata",
+      "original_description": "A knowledge graph of biblical people, places, periods, and passages",
+      "original_url": "https://github.com/robertrouse/theographic-bible-metadata"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "timeline-of-everything",
+        "owner": "BenShelton",
+        "description": "A comprehensive timeline of Biblical events, characters, prophecies (& their fulfillments), places... everything!",
+        "url": "https://github.com/BenShelton/timeline-of-everything",
+        "created_at": "2021-12-20T16:44:08Z",
+        "last_updated": "2024-10-21T11:40:33Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "TypeScript",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 7,
+        "forks": 0,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["BenShelton"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Ben Jones",
+        "display_name": "Ben Jones",
+        "url": "https://github.com/BenShelton",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22983604?v=4",
+        "bio": "Code lover & quick learner",
+        "location": "Cardiff, Wales",
+        "email": "bensheltonjones@gmail.com",
+        "website": "",
+        "company": "Freelancer",
+        "public_repos": 27,
+        "followers": 21,
+        "following": 7,
+        "created_at": "2016-10-21T14:43:11Z",
+        "updated_at": "2024-10-20T17:29:56Z",
+        "social_links": {
+          "twitter": null,
+          "website": ""
+        },
+        "hireable": null,
+        "public_gists": 1,
+        "twitter": null,
+        "recent_activity_count": 28,
+        "repos_count": 27
+      },
+      "issues": {
+        "summary": {
+          "total_count": 2,
+          "open_count": 0,
+          "closed_count": 2
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 1,
+          "average_comments": 0.5
+        },
+        "recent_activity": [
+          {
+            "id": 2,
+            "title": "Create LICENSE",
+            "state": "closed",
+            "created_at": "2024-03-14T11:23:58Z",
+            "updated_at": "2024-03-14T11:24:41Z",
+            "author": "BenShelton"
+          },
+          {
+            "id": 1,
+            "title": "Add License",
+            "state": "closed",
+            "created_at": "2024-03-12T04:16:30Z",
+            "updated_at": "2024-03-14T11:24:06Z",
+            "author": "meichthys"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 6
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "timeline-of-everything",
+      "original_description": "Comprehensive timeline of Biblical events and characters",
+      "original_url": "https://github.com/BenShelton/timeline-of-everything"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "timeline-poc",
+        "owner": "hiscoder-com",
+        "description": "Library of components for convenient viewing of various biblical events",
+        "url": "https://github.com/hiscoder-com/timeline-poc",
+        "created_at": "2022-02-23T07:31:17Z",
+        "last_updated": "2024-09-11T18:58:56Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "JavaScript",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 2,
+        "forks": 0,
+        "open_issues": 1,
+        "contributors": {
+          "total_count": 3,
+          "top_contributors": ["foxprogs", "Valyukhov", "Pavel064"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "hiscoder.com",
+        "display_name": "hiscoder.com",
+        "url": "https://github.com/hiscoder-com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/180173738?v=4",
+        "description": "",
+        "location": "Canada",
+        "email": null,
+        "website": "https://hiscoder.com",
+        "public_repos": 24,
+        "created_at": "2024-09-02T10:41:07Z",
+        "updated_at": "2024-11-13T08:18:52Z",
+        "members_count": 0,
+        "repos_count": 24,
+        "social_links": {
+          "twitter": null,
+          "website": "https://hiscoder.com"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 2,
+          "open_count": 1,
+          "closed_count": 1
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 1,
+          "average_comments": 0.5
+        },
+        "recent_activity": [
+          {
+            "id": 2,
+            "title": "Add License",
+            "state": "open",
+            "created_at": "2024-03-12T04:16:56Z",
+            "updated_at": "2024-03-12T04:16:56Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 1,
+            "title": "Fix deploy",
+            "state": "closed",
+            "created_at": "2022-03-04T19:40:05Z",
+            "updated_at": "2022-03-05T19:27:33Z",
+            "author": "Valyukhov"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "timeline-poc",
+      "original_description": "Components for viewing various biblical events",
+      "original_url": "https://github.com/texttree/timeline-poc"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "track",
+        "owner": "gracious-tech",
+        "description": "Keep track of your Bible reading, and complete it at your own pace",
+        "url": "https://github.com/gracious-tech/track",
+        "created_at": "2019-09-06T01:05:50Z",
+        "last_updated": "2024-07-17T05:11:52Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "TypeScript",
+        "license": "MIT No Attribution"
+      },
+      "metrics": {
+        "stars": 6,
+        "forks": 0,
+        "open_issues": 7,
+        "contributors": {
+          "total_count": 0,
+          "top_contributors": []
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "Gracious Tech",
+        "display_name": "Gracious Tech",
+        "url": "https://github.com/gracious-tech",
+        "avatar_url": "https://avatars.githubusercontent.com/u/42055739?v=4",
+        "description": "",
+        "location": null,
+        "email": null,
+        "website": "https://gracious.tech/",
+        "public_repos": 9,
+        "created_at": "2018-08-03T05:16:41Z",
+        "updated_at": "2021-08-15T00:27:59Z",
+        "members_count": 0,
+        "repos_count": 9,
+        "social_links": {
+          "twitter": null,
+          "website": "https://gracious.tech/"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 12,
+          "open_count": 7,
+          "closed_count": 5
+        },
+        "labels": ["python", "dependencies", "javascript"],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 5,
+          "average_comments": 0.4166666666666667
+        },
+        "recent_activity": [
+          {
+            "id": 12,
+            "title": "Feature Request: Book With Oldest Last-Read Timestamp",
+            "state": "open",
+            "created_at": "2024-01-23T10:39:00Z",
+            "updated_at": "2024-01-23T10:39:00Z",
+            "author": "oswinrodrigues"
+          },
+          {
+            "id": 11,
+            "title": "Bump certifi from 2019.9.11 to 2022.12.7",
+            "state": "open",
+            "created_at": "2022-12-08T06:47:40Z",
+            "updated_at": "2022-12-08T06:47:41Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "id": 10,
+            "title": "Bump pillow from 6.1.0 to 9.3.0",
+            "state": "open",
+            "created_at": "2022-11-22T04:19:04Z",
+            "updated_at": "2022-11-22T04:19:05Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "id": 9,
+            "title": "Bump jsdom from 15.1.1 to 16.5.0",
+            "state": "open",
+            "created_at": "2022-06-23T11:27:25Z",
+            "updated_at": "2022-06-23T11:27:26Z",
+            "author": "dependabot[bot]"
+          },
+          {
+            "id": 8,
+            "title": "Bump pillow from 6.1.0 to 9.0.1",
+            "state": "closed",
+            "created_at": "2022-03-12T00:07:50Z",
+            "updated_at": "2022-11-22T04:19:09Z",
+            "author": "dependabot[bot]"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 2
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "track",
+      "original_description": "Keep track of your Bible reading, and complete it at your own pace",
+      "original_url": "https://github.com/gracious-tech/track"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "UniqueBible",
+        "owner": "eliranwong",
+        "description": "A cross-platform bible application, integrated with high-quality resources and amazing features, running offline in Windows, macOS and Linux, ChromeOS, Android, iOS.  Various running modes are supported.",
+        "url": "https://github.com/eliranwong/UniqueBible",
+        "created_at": "2019-01-07T10:06:11Z",
+        "last_updated": "2024-11-14T22:42:34Z",
+        "default_branch": "main",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Python",
+        "license": "GNU General Public License v3.0"
+      },
+      "metrics": {
+        "stars": 131,
+        "forks": 38,
+        "open_issues": 22,
+        "contributors": {
+          "total_count": 4,
+          "top_contributors": ["eliranwong", "otseng", "dependabot[bot]", "Panquesito7"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Eliran Wong",
+        "display_name": "Eliran Wong",
+        "url": "https://github.com/eliranwong",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25262722?v=4",
+        "bio": "https://letmedoit.ai https://BibleTools.app https://UniqueBible.app https://Marvel.bible https://BibleBento.com - Marvellous Bible Resources",
+        "location": "Europe",
+        "email": null,
+        "website": "https://letmedoit.ai",
+        "company": "https://letmedoit.ai",
+        "public_repos": 77,
+        "followers": 179,
+        "following": 2,
+        "created_at": "2017-01-21T08:42:41Z",
+        "updated_at": "2024-11-06T16:24:23Z",
+        "social_links": {
+          "twitter": null,
+          "website": "https://letmedoit.ai"
+        },
+        "hireable": null,
+        "public_gists": 0,
+        "twitter": null,
+        "recent_activity_count": 30,
+        "repos_count": 30
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 12,
+          "closed_count": 88
+        },
+        "labels": ["bug", "dependencies", "python", "enhancement", "help wanted"],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 46,
+          "average_comments": 0.83
+        },
+        "recent_activity": [
+          {
+            "id": 1474,
+            "title": "Windows installation problem",
+            "state": "closed",
+            "created_at": "2024-11-15T11:20:37Z",
+            "updated_at": "2024-11-15T12:56:55Z",
+            "author": "orthodogz"
+          },
+          {
+            "id": 1473,
+            "title": "support Gemini to run ask_perplexica plugin",
+            "state": "closed",
+            "created_at": "2024-11-13T00:50:06Z",
+            "updated_at": "2024-11-13T15:55:48Z",
+            "author": "eliranwong"
+          },
+          {
+            "id": 1472,
+            "title": "improve AI commentary html output and display",
+            "state": "closed",
+            "created_at": "2024-11-13T00:46:13Z",
+            "updated_at": "2024-11-13T15:56:07Z",
+            "author": "eliranwong"
+          },
+          {
+            "id": 1471,
+            "title": "improve answer commands",
+            "state": "closed",
+            "created_at": "2024-11-11T10:48:31Z",
+            "updated_at": "2024-11-13T15:56:24Z",
+            "author": "eliranwong"
+          },
+          {
+            "id": 1470,
+            "title": "add an 'ask:::' command for asking bible related questions via AI model",
+            "state": "closed",
+            "created_at": "2024-11-10T20:05:07Z",
+            "updated_at": "2024-11-11T10:47:22Z",
+            "author": "eliranwong"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 85
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "UniqueBible ",
+      "original_description": "A cross-platform & offline bible application, integrated with high-quality resources and unique features.",
+      "original_url": "https://github.com/eliranwong/UniqueBible"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "level",
+        "owner": "hiscoder-com",
+        "description": "App to translate Scripture step by step ",
+        "url": "https://github.com/hiscoder-com/level",
+        "created_at": "2022-02-17T06:27:02Z",
+        "last_updated": "2024-11-08T07:54:34Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "JavaScript",
+        "license": "MIT License"
+      },
+      "metrics": {
+        "stars": 6,
+        "forks": 4,
+        "open_issues": 54,
+        "contributors": {
+          "total_count": 7,
+          "top_contributors": ["Valyukhov", "Pavel064", "foxprogs", "DenisArger", "Vorobushec"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "hiscoder.com",
+        "display_name": "hiscoder.com",
+        "url": "https://github.com/hiscoder-com",
+        "avatar_url": "https://avatars.githubusercontent.com/u/180173738?v=4",
+        "description": "",
+        "location": "Canada",
+        "email": null,
+        "website": "https://hiscoder.com",
+        "public_repos": 24,
+        "created_at": "2024-09-02T10:41:07Z",
+        "updated_at": "2024-11-13T08:18:52Z",
+        "members_count": 0,
+        "repos_count": 24,
+        "social_links": {
+          "twitter": null,
+          "website": "https://hiscoder.com"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 22,
+          "closed_count": 78
+        },
+        "labels": ["bug", "priority/medium", "priority/high", "priority/low"],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": true
+        },
+        "engagement": {
+          "issues_with_comments": 63,
+          "average_comments": 1.14
+        },
+        "recent_activity": [
+          {
+            "id": 727,
+            "title": "Community Audio",
+            "state": "open",
+            "created_at": "2024-11-15T12:47:06Z",
+            "updated_at": "2024-11-15T12:47:11Z",
+            "author": "BogdanLi"
+          },
+          {
+            "id": 726,
+            "title": "new version 0.25.1",
+            "state": "closed",
+            "created_at": "2024-11-08T07:44:37Z",
+            "updated_at": "2024-11-08T07:54:24Z",
+            "author": "Pavel064"
+          },
+          {
+            "id": 725,
+            "title": "Upgrade  to next 14 & settings eslint (check order imports and classes)",
+            "state": "closed",
+            "created_at": "2024-10-30T09:36:59Z",
+            "updated_at": "2024-10-31T11:55:33Z",
+            "author": "DenisArger"
+          },
+          {
+            "id": 724,
+            "title": "Hot fix verse extended",
+            "state": "open",
+            "created_at": "2024-10-29T19:24:01Z",
+            "updated_at": "2024-10-30T20:50:57Z",
+            "author": "Valyukhov"
+          },
+          {
+            "id": 723,
+            "title": "Make auto check order imports and classes",
+            "state": "closed",
+            "created_at": "2024-10-29T07:44:26Z",
+            "updated_at": "2024-10-31T11:56:00Z",
+            "author": "Valyukhov"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 658
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "v-cana",
+      "original_description": "App to translate Scripture step by step",
+      "original_url": "https://github.com/texttree/v-cana"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "vSongbook-Web",
+        "owner": "Appsmata",
+        "description": "Web version of vSongBook a songbook app for use in churches to access song lyrics",
+        "url": "https://github.com/Appsmata/vSongbook-Web",
+        "created_at": "2019-04-12T13:03:17Z",
+        "last_updated": "2024-07-01T22:35:18Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "PHP",
+        "license": "GNU General Public License v3.0"
+      },
+      "metrics": {
+        "stars": 4,
+        "forks": 0,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 2,
+          "top_contributors": ["JacksiroKe", "jacksiro"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "Appsmata Solutions",
+        "display_name": "Appsmata Solutions",
+        "url": "https://github.com/Appsmata",
+        "avatar_url": "https://avatars.githubusercontent.com/u/57385460?v=4",
+        "description": "Smart solutions for smart people",
+        "location": "Nairobi, Kenya",
+        "email": "appsmatake@gmail.com",
+        "website": "https://appsmata.com",
+        "public_repos": 17,
+        "created_at": "2019-11-05T05:50:55Z",
+        "updated_at": "2020-06-13T06:45:18Z",
+        "members_count": 1,
+        "repos_count": 17,
+        "social_links": {
+          "twitter": "https://twitter.com/Appsmata",
+          "website": "https://appsmata.com"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 0,
+          "open_count": 0,
+          "closed_count": 0
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0
+        },
+        "recent_activity": []
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "vSongBook",
+      "original_description": "Songbook app for accessing song lyrics in churches",
+      "original_url": "https://github.com/Appsmata/vSongbook-Web"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "westminster-ios",
+        "owner": "mattrob33",
+        "description": "An iOS app for reading and searching the WCF, WLC, and WSC",
+        "url": "https://github.com/mattrob33/westminster-ios",
+        "created_at": "2022-01-13T03:56:06Z",
+        "last_updated": "2022-01-13T14:41:35Z",
+        "default_branch": "main",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Swift",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 0,
+        "forks": 0,
+        "open_issues": 0,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["mattrob33"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Matt Robertson",
+        "display_name": "Matt Robertson",
+        "url": "https://github.com/mattrob33",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4062288?v=4",
+        "bio": "Android Developer at Crossway",
+        "location": "Ruston, Louisiana",
+        "email": null,
+        "website": "https://mattrobertson.dev",
+        "company": "Crossway",
+        "public_repos": 32,
+        "followers": 25,
+        "following": 18,
+        "created_at": "2013-04-04T19:19:09Z",
+        "updated_at": "2024-10-29T18:46:41Z",
+        "social_links": {
+          "twitter": "https://twitter.com/mattrobertson33",
+          "website": "https://mattrobertson.dev"
+        },
+        "hireable": null,
+        "public_gists": 14,
+        "twitter": "mattrobertson33",
+        "recent_activity_count": 19,
+        "repos_count": 30
+      },
+      "issues": {
+        "summary": {
+          "total_count": 0,
+          "open_count": 0,
+          "closed_count": 0
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0
+        },
+        "recent_activity": []
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Westminster Standards",
+      "original_description": "iOS app for reading and searching the Westminster Confession and Catechisms",
+      "original_url": "https://github.com/mattrob33/westminster-ios"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "xiphos",
+        "owner": "crosswire",
+        "description": "Xiphos is a Bible study tool written for Linux, UNIX, and Windows using GTK, offering a rich and featureful environment for reading, study, and research using modules from The SWORD Project and elsewhere.",
+        "url": "https://github.com/crosswire/xiphos",
+        "created_at": "2016-01-25T14:12:38Z",
+        "last_updated": "2024-11-01T17:15:36Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Scheme",
+        "license": "GNU General Public License v2.0"
+      },
+      "metrics": {
+        "stars": 208,
+        "forks": 51,
+        "open_issues": 87,
+        "contributors": {
+          "total_count": 30,
+          "top_contributors": ["karlkleinpaste", "xnox", "refdoc", "matysek", "domcorbex"]
+        }
+      },
+      "owner_info": {
+        "type": "organization",
+        "name": "CrossWire Bible Society",
+        "display_name": "CrossWire Bible Society",
+        "url": "https://github.com/crosswire",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1617636?v=4",
+        "description": "Bringing the Gospel to a new generation.",
+        "location": null,
+        "email": "support@crosswire.org",
+        "website": "https://crosswire.org",
+        "public_repos": 3,
+        "created_at": "2012-04-06T04:38:21Z",
+        "updated_at": "2023-03-18T01:05:36Z",
+        "members_count": 0,
+        "repos_count": 3,
+        "social_links": {
+          "twitter": null,
+          "website": "https://crosswire.org"
+        }
+      },
+      "issues": {
+        "summary": {
+          "total_count": 100,
+          "open_count": 37,
+          "closed_count": 63
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": true,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 73,
+          "average_comments": 3.32
+        },
+        "recent_activity": [
+          {
+            "id": 1181,
+            "title": "About Downloading/Installing Xiphos\u2026",
+            "state": "closed",
+            "created_at": "2024-11-09T19:30:07Z",
+            "updated_at": "2024-11-10T14:26:32Z",
+            "author": "johnhenryhalljr"
+          },
+          {
+            "id": 1180,
+            "title": "About Downloading/Installing Xiphos",
+            "state": "closed",
+            "created_at": "2024-11-09T18:23:55Z",
+            "updated_at": "2024-11-09T19:21:53Z",
+            "author": "johnhenryhalljr"
+          },
+          {
+            "id": 1179,
+            "title": "over maximization",
+            "state": "closed",
+            "created_at": "2024-11-01T23:32:02Z",
+            "updated_at": "2024-11-02T13:15:57Z",
+            "author": "blaineclrk"
+          },
+          {
+            "id": 1178,
+            "title": "Odd Font Display Issues",
+            "state": "closed",
+            "created_at": "2024-11-01T11:19:17Z",
+            "updated_at": "2024-11-07T08:10:04Z",
+            "author": "Flavor-name"
+          },
+          {
+            "id": 1177,
+            "title": "text not displaying",
+            "state": "closed",
+            "created_at": "2024-10-06T23:56:22Z",
+            "updated_at": "2024-10-07T00:15:23Z",
+            "author": "mnymonyker"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 35
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "Xiphos",
+      "original_description": "Bible study tool written for Linux, UNIX, and Windows",
+      "original_url": "https://github.com/crosswire/xiphos"
+    },
+    {
+      "platform": "github",
+      "metadata": {
+        "name": "XML-TEI-Bible",
+        "owner": "morethanbooks",
+        "description": "Encoding the Bible in TEI, starting with the Gospels",
+        "url": "https://github.com/morethanbooks/XML-TEI-Bible",
+        "created_at": "2015-12-30T17:06:21Z",
+        "last_updated": "2024-07-03T17:32:27Z",
+        "default_branch": "master",
+        "is_archived": false,
+        "is_fork": false,
+        "primary_language": "Jupyter Notebook",
+        "license": "Unknown"
+      },
+      "metrics": {
+        "stars": 24,
+        "forks": 5,
+        "open_issues": 1,
+        "contributors": {
+          "total_count": 1,
+          "top_contributors": ["morethanbooks"]
+        }
+      },
+      "owner_info": {
+        "type": "user",
+        "name": "Jos\u00e9 Calvo Tello",
+        "display_name": "Jos\u00e9 Calvo Tello",
+        "url": "https://github.com/morethanbooks",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5383381?v=4",
+        "bio": "Digital Humanist, Romanist, Librarian.",
+        "location": "Germany",
+        "email": "calvotello@sub.uni-goettingen.de",
+        "website": "http://www.morethanbooks.eu/",
+        "company": "G\u00f6ttingen State and University Library",
+        "public_repos": 19,
+        "followers": 42,
+        "following": 7,
+        "created_at": "2013-09-04T15:43:33Z",
+        "updated_at": "2024-11-08T12:25:56Z",
+        "social_links": {
+          "twitter": null,
+          "website": "http://www.morethanbooks.eu/"
+        },
+        "hireable": null,
+        "public_gists": 0,
+        "twitter": null,
+        "recent_activity_count": 1,
+        "repos_count": 19
+      },
+      "issues": {
+        "summary": {
+          "total_count": 8,
+          "open_count": 1,
+          "closed_count": 7
+        },
+        "labels": [],
+        "features": {
+          "has_assignees": false,
+          "has_milestones": false
+        },
+        "engagement": {
+          "issues_with_comments": 0,
+          "average_comments": 0.0
+        },
+        "recent_activity": [
+          {
+            "id": 8,
+            "title": "Add License",
+            "state": "open",
+            "created_at": "2024-03-12T04:07:27Z",
+            "updated_at": "2024-03-12T04:07:27Z",
+            "author": "meichthys"
+          },
+          {
+            "id": 7,
+            "title": "Esdras",
+            "state": "closed",
+            "created_at": "2018-05-20T18:40:29Z",
+            "updated_at": "2018-05-20T18:42:38Z",
+            "author": "morethanbooks"
+          },
+          {
+            "id": 6,
+            "title": "Psalms 2",
+            "state": "closed",
+            "created_at": "2018-05-04T19:29:17Z",
+            "updated_at": "2018-05-04T19:33:11Z",
+            "author": "morethanbooks"
+          },
+          {
+            "id": 5,
+            "title": "Nehemias",
+            "state": "closed",
+            "created_at": "2018-02-25T06:58:28Z",
+            "updated_at": "2018-02-25T06:59:14Z",
+            "author": "morethanbooks"
+          },
+          {
+            "id": 4,
+            "title": "Nehemias",
+            "state": "closed",
+            "created_at": "2018-02-25T06:52:06Z",
+            "updated_at": "2018-02-25T06:52:30Z",
+            "author": "morethanbooks"
+          }
+        ]
+      },
+      "contributions": {
+        "commit_activity": {
+          "total_commits_last_year": 0
+        },
+        "repository_activity": {
+          "last_updated": null,
+          "recent_releases": []
+        }
+      },
+      "original_name": "XML-TEI-Bible",
+      "original_description": "Encoding the Bible in TEI, starting with the Gospels",
+      "original_url": "https://github.com/morethanbooks/XML-TEI-Bible"
     }
   ]
 }
