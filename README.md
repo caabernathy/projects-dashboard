@@ -2,6 +2,9 @@
 
 A dashboard for exploring and discovering Christian open source projects across GitHub and GitLab. This dashboard provides insights into project metrics, owner information, and engagement statistics to help connect contributors with meaningful projects.
 
+![open_source_projects_dashboard](https://github.com/user-attachments/assets/76b82609-345b-4dc2-baa1-42b201f01752)
+
+
 ## Features
 
 - Browse Christian open source projects from multiple platforms
