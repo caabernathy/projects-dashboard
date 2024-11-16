@@ -1,50 +1,139 @@
-# React + TypeScript + Vite
+# Christian Open Source Projects Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dashboard for exploring and discovering Christian open source projects across GitHub and GitLab. This dashboard provides insights into project metrics, owner information, and engagement statistics to help connect contributors with meaningful projects.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse Christian open source projects from multiple platforms
+- View detailed project metrics and statistics
+- Explore maintainer profiles and contact information
+- Track community engagement and contribution patterns
+- Responsive design for desktop and mobile viewing
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Before you begin, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [npm](https://www.npmjs.com/) (v7 or higher)
 
-- Configure the top-level `parserOptions` property like this:
+## Local Development Setup
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/repo-dashboard.git
+    cd repo-dashboard
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+The application should now be running at `http://localhost:5173/repo-dashboard`
+
+## Build for Production
+
+To create a production build:
+
+```bash
+npm run build
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The built files will be available in the `dist` directory.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Deploy to GitHub Pages
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+You can optionally deploy to your own GitHub Pages site.
+
+### Setup
+
+1. Fork the repo.
+
+2. Modify `package.json` and change the `homepage` parameter to point to your GitHub account / organization. 
+
+### Deploy
+
+1. Push any code changes up to your repo
+
+3. Push your changes to GitHub Pages:
+    ```bash
+    npm run deploy
+    ``` 
+
+## Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### Reporting Issues
+
+- Use the GitHub issue tracker to report bugs
+- Provide as much information as possible about your environment
+- Include steps to reproduce the issue
+- Add screenshots if applicable
+
+### Making Changes
+
+1. Fork the repository
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes
+4. Write or update tests as needed
+5. Run tests:
+    ```bash
+    npm run test
+    ```
+6. Commit your changes:
+    ```bash
+    git commit -m "feat: add your feature description"
+    ```
+7. Push to your fork:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+8. Open a Pull Request
+
+### Code Style
+
+- Follow the existing code style
+- Use TypeScript for all new code
+- Implement proper type definitions
+- Use functional components and hooks for React code
+- Add comments for complex logic
+- Use meaningful variable and function names
+
+### Commit Messages
+
+We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
+
+- `feat:` for new features
+- `fix:` for bug fixes
+- `docs:` for documentation changes
+- `style:` for formatting changes
+- `refactor:` for code refactoring
+- `test:` for adding or modifying tests
+- `chore:` for maintenance tasks
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run deploy` - Deploy site to your GitHub Pages
+
+## Technical Stack
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Lucide Icons](https://lucide.dev/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
