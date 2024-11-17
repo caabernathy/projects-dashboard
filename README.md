@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed:
     npm run dev
     ```
 
-The application should now be running at `http://localhost:5173/projects-dashboard`
+The application should now be running at `http://localhost:5173`
 
 ## Build for Production
 
@@ -53,7 +53,7 @@ You can optionally deploy to your own GitHub Pages site.
 
 1. Fork the repo.
 
-2. Modify `package.json` and change the `homepage` parameter to point to your GitHub account / organization. 
+2. Modify `package.json` and change the `homepage` parameter to point to match your configuration. 
 
 ### Deploy
 
