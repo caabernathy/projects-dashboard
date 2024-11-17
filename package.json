@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.5.0",
   "type": "module",
-  "homepage": "https://caabernathy.github.io/projects-dashboard",
+  "homepage": "https://openlyfaithful.github.io/projects-dashboard",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
