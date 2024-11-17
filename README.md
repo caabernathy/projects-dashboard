@@ -22,10 +22,6 @@ Before you begin, ensure you have the following installed:
 ## Local Development Setup
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/repo-dashboard.git
-    cd repo-dashboard
-    ```
 
 2. Install dependencies:
     ```bash
@@ -37,7 +33,7 @@ Before you begin, ensure you have the following installed:
     npm run dev
     ```
 
-The application should now be running at `http://localhost:5173/repo-dashboard`
+The application should now be running at `http://localhost:5173/projects-dashboard`
 
 ## Build for Production
 
