@@ -53,16 +53,13 @@ You can optionally deploy to your own GitHub Pages site.
 
 1. Fork the repo.
 
-2. Modify `package.json` and change the `homepage` parameter to point to match your configuration. 
+2. Modify `package.json` and change the `homepage` parameter to point to match your configuration. If you're not using a custom domain, it should look something like this: `"homepage": "https://<your-github-username>.github.io/<your-repo-name>"`.
+
+3. Modify `vite.config.ts` and change the `base` parameter to point to match your configuration. If you're not using a custom domain, it should look something like this: `base: '/<your-repo-name>/'`.
 
 ### Deploy
 
-1. Push any code changes up to your repo
-
-3. Push your changes to GitHub Pages:
-    ```bash
-    npm run deploy
-    ``` 
+Push any code changes up to your repo
 
 ## Contributing
 
@@ -123,7 +120,6 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) speci
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
-- `npm run deploy` - Deploy site to your GitHub Pages
 
 ## Technical Stack
 
