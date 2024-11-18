@@ -9,6 +9,8 @@ import {
   ChevronUp,
   ChevronLeft,
   ChevronRight,
+  Copy,
+  Check,
 } from 'lucide-react';
 import { PlatformLogo } from './PlatformLogo';
 import type { Repository, OwnerInfo, Metrics } from '../types';
@@ -16,6 +18,15 @@ import repoData from '../data/repo-data.json';
 
 const OwnerCard = ({ owner }: { owner: OwnerInfo }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyEmail = async () => {
+    if (owner.email) {
+      await navigator.clipboard.writeText(owner.email);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    }
+  };
 
   return (
     <div className="mt-4 bg-gray-50 rounded-lg p-4">
@@ -63,14 +74,23 @@ const OwnerCard = ({ owner }: { owner: OwnerInfo }) => {
           {(owner.social_links.website || owner.social_links.twitter || owner.email) && (
             <div className="flex gap-4 mt-2">
               {owner.email && (
-                <a
-                  href={`mailto:${owner.email}`}
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
-                >
-                  <ExternalLink size={14} />
-                  Email
-                </a>
+                <div className="flex items-center gap-2">
+                  <a
+                    href={`mailto:${owner.email}`}
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <ExternalLink size={14} />
+                    Email
+                  </a>
+                  <button
+                    onClick={handleCopyEmail}
+                    className="p-1 hover:bg-gray-200 rounded-full transition-colors"
+                    title={copied ? 'Copied!' : `Copy email: ${owner.email}`}
+                  >
+                    {copied ? <Check size={14} className="text-green-500" /> : <Copy size={14} />}
+                  </button>
+                </div>
               )}
               {owner.social_links.website && (
                 <a
@@ -242,7 +262,9 @@ const Dashboard = () => {
     <div className="min-h-screen bg-gray-100 py-8 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-8">
-          <h1 className="text-2xl font-bold text-gray-900">Christian Open Source Projects Dashboard</h1>
+          <h1 className="text-2xl font-bold text-gray-900">
+            Christian Open Source Projects Dashboard
+          </h1>
           <div className="text-sm text-gray-600">
             Showing {startIndex + 1}-{Math.min(endIndex, repoData.repositories.length)} of{' '}
             {repoData.repositories.length} repositories
