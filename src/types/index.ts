@@ -70,7 +70,7 @@ export interface Contributions {
   };
   repository_activity: {
     last_updated: string | null;
-    recent_releases: any[];
+    recent_releases: never[];
   };
 }
 
