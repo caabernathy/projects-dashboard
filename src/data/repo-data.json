@@ -18,7 +18,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "BSD 2-Clause \"Simplified\" License"
+        "license": "BSD 2-Clause \"Simplified\" License",
+        "categories": ["APIs and Libraries", "Bible Translations"]
       },
       "metrics": {
         "stars": 792,
@@ -145,7 +146,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Kotlin",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Bible Study Tools", "Mobile Apps", "Android"]
       },
       "metrics": {
         "stars": 599,
@@ -276,7 +278,8 @@
         "is_archived": false,
         "is_fork": true,
         "primary_language": "Kotlin",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Bible Study Tools", "Mobile Apps", "Android"]
       },
       "metrics": {
         "stars": 0,
@@ -356,7 +359,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Java",
-        "license": "Apache License 2.0"
+        "license": "Apache License 2.0",
+        "categories": ["Bible Study Tools", "Mobile Apps", "Android"]
       },
       "metrics": {
         "stars": 322,
@@ -477,7 +481,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Cython",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Messaging and Communication"]
       },
       "metrics": {
         "stars": 4,
@@ -566,7 +571,8 @@
         "is_archived": true,
         "is_fork": false,
         "primary_language": "Elm",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Messaging and Communication", "Church Management Systems"]
       },
       "metrics": {
         "stars": 61,
@@ -700,7 +706,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Other"
+        "license": "Other",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 0,
@@ -821,7 +828,8 @@
         "is_archived": true,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Prayer and Devotion", "Messaging and Communication", "Bots"]
       },
       "metrics": {
         "stars": 4,
@@ -928,7 +936,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Web Apps", "Church Management Systems"]
       },
       "metrics": {
         "stars": 6,
@@ -1049,7 +1058,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Imba",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Web Apps"]
       },
       "metrics": {
         "stars": 65,
@@ -1164,7 +1174,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Vue",
-        "license": "GNU Affero General Public License v3.0"
+        "license": "GNU Affero General Public License v3.0",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 32,
@@ -1279,7 +1290,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": null,
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 515,
@@ -1400,7 +1412,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": null,
-        "license": "Other"
+        "license": "Other",
+        "categories": ["Bible Translations"]
       },
       "metrics": {
         "stars": 192,
@@ -1515,7 +1528,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 5,
@@ -1636,7 +1650,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 1,
@@ -1725,7 +1740,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Ruby",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["APIs and Libraries", "Bible Translations"]
       },
       "metrics": {
         "stars": 580,
@@ -1846,7 +1862,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["APIs and Libraries", "Bible Translations"]
       },
       "metrics": {
         "stars": 23,
@@ -1961,7 +1978,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Python",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Data and Metadata", "Bible Translations"]
       },
       "metrics": {
         "stars": 1031,
@@ -2088,7 +2106,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Objective-C",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Mobile Apps", "iOS"]
       },
       "metrics": {
         "stars": 172,
@@ -2193,7 +2212,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["APIs and Libraries", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 1,
@@ -2273,7 +2293,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": null,
-        "license": "GNU General Public License v2.0"
+        "license": "GNU General Public License v2.0",
+        "categories": ["Data and Metadata", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 26,
@@ -2353,7 +2374,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Data and Metadata", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 1,
@@ -2442,7 +2464,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": null,
-        "license": "Creative Commons Attribution 4.0 International"
+        "license": "Creative Commons Attribution 4.0 International",
+        "categories": ["Data and Metadata", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 73,
@@ -2555,7 +2578,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["APIs and Libraries", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 223,
@@ -2676,7 +2700,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["APIs and Libraries", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 7,
@@ -2756,7 +2781,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Pascal",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Desktop Apps"]
       },
       "metrics": {
         "stars": 24,
@@ -2877,7 +2903,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Ruby",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Web Apps"]
       },
       "metrics": {
         "stars": 1,
@@ -2998,7 +3025,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["APIs and Libraries", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 22,
@@ -3103,7 +3131,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "CSS",
-        "license": "Other"
+        "license": "Other",
+        "categories": ["Data and Metadata", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 4,
@@ -3183,7 +3212,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Rust",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["APIs and Libraries", "Bible Translations"]
       },
       "metrics": {
         "stars": 221,
@@ -3304,7 +3334,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools", "CLI"]
       },
       "metrics": {
         "stars": 306,
@@ -3419,7 +3450,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 7,
@@ -3567,7 +3599,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": null,
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 10,
@@ -3682,7 +3715,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Python",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["APIs and Libraries", "Bible Study Tools", "CLI"]
       },
       "metrics": {
         "stars": 21,
@@ -3803,7 +3837,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Java",
-        "license": "Other"
+        "license": "Other",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 127,
@@ -3930,7 +3965,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 29,
@@ -4051,7 +4087,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "CLI"]
       },
       "metrics": {
         "stars": 5,
@@ -4164,7 +4201,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Java",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Bible Study Tools", "Mobile Apps"]
       },
       "metrics": {
         "stars": 31,
@@ -4279,7 +4317,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "C++",
-        "license": "Other"
+        "license": "Other",
+        "categories": ["APIs and Libraries", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 9,
@@ -4400,7 +4439,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "C++",
-        "license": "GNU General Public License v2.0"
+        "license": "GNU General Public License v2.0",
+        "categories": ["Bible Study Tools", "Mobile Apps"]
       },
       "metrics": {
         "stars": 333,
@@ -4542,7 +4582,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools", "Machine Learning"]
       },
       "metrics": {
         "stars": 13,
@@ -4622,7 +4663,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools", "Web Apps"]
       },
       "metrics": {
         "stars": 0,
@@ -4702,7 +4744,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Church Presentation System"]
       },
       "metrics": {
         "stars": 56,
@@ -4793,7 +4836,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "PHP",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Church Management Systems"]
       },
       "metrics": {
         "stars": 6,
@@ -4914,7 +4958,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": null,
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Collections"]
       },
       "metrics": {
         "stars": 25,
@@ -5003,7 +5048,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Church Management Systems", "Web Apps"]
       },
       "metrics": {
         "stars": 33,
@@ -5124,7 +5170,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "PHP",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Church Management Systems"]
       },
       "metrics": {
         "stars": 636,
@@ -5261,7 +5308,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "HTML",
-        "license": "Apache License 2.0"
+        "license": "Apache License 2.0",
+        "categories": ["Data and Metadata"]
       },
       "metrics": {
         "stars": 32,
@@ -5376,7 +5424,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Church Presentation System"]
       },
       "metrics": {
         "stars": 38,
@@ -5504,7 +5553,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Church Presentation System"]
       },
       "metrics": {
         "stars": 1,
@@ -5587,7 +5637,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Python",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 17,
@@ -5692,7 +5743,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Objective-C",
-        "license": "BSD 3-Clause \"New\" or \"Revised\" License"
+        "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "categories": ["Bible Study Tools", "Desktop Apps"]
       },
       "metrics": {
         "stars": 115,
@@ -5821,7 +5873,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "HTML",
-        "license": "Other"
+        "license": "Other",
+        "categories": ["Data and Metadata", "Bible Translations"]
       },
       "metrics": {
         "stars": 8,
@@ -5942,7 +5995,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "GNU General Public License v2.0"
+        "license": "GNU General Public License v2.0",
+        "categories": ["Bible Study Tools", "Mobile Apps"]
       },
       "metrics": {
         "stars": 150,
@@ -6073,7 +6127,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT No Attribution"
+        "license": "MIT No Attribution",
+        "categories": ["Bible Translations", "CLI", "Web Apps"]
       },
       "metrics": {
         "stars": 15,
@@ -6188,7 +6243,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Svelte",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Church Presentation System"]
       },
       "metrics": {
         "stars": 562,
@@ -6303,7 +6359,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TeX",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 408,
@@ -6424,7 +6481,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Kotlin",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Mobile Apps", "Android"]
       },
       "metrics": {
         "stars": 5,
@@ -6556,7 +6614,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Swift",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Mobile Apps", "iOS"]
       },
       "metrics": {
         "stars": 1,
@@ -6677,7 +6736,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Go",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 5,
@@ -6798,7 +6858,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Hymnals and Songbooks", "Data and Metadata"]
       },
       "metrics": {
         "stars": 28,
@@ -6919,7 +6980,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "PHP",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Church Management Systems"]
       },
       "metrics": {
         "stars": 35,
@@ -7048,7 +7110,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Java",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 48,
@@ -7163,7 +7226,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Web Apps", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 3,
@@ -7284,7 +7348,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "C++",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Desktop Apps"]
       },
       "metrics": {
         "stars": 3,
@@ -7399,7 +7464,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Other"
+        "license": "Other",
+        "categories": ["Bible Translations", "Data and Metadata"]
       },
       "metrics": {
         "stars": 186,
@@ -7514,7 +7580,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 238,
@@ -7537,7 +7604,7 @@
         "display_name": "Tim",
         "url": "https://github.com/tim-hub",
         "avatar_url": "https://avatars.githubusercontent.com/u/2884320?v=4",
-        "bio": "\u2764\ufe0f Learn, Share and Grow  ---- Software Engineer | AWS Professional & Community Builder | Open Source Lover ",
+        "bio": "❤️ Learn, Share and Grow  ---- Software Engineer | AWS Professional & Community Builder | Open Source Lover ",
         "location": "Asia Pacific",
         "email": null,
         "website": "https://techtim42.com",
@@ -7641,7 +7708,8 @@
         "is_archived": true,
         "is_fork": false,
         "primary_language": "Ruby",
-        "license": "GNU Affero General Public License v3.0"
+        "license": "GNU Affero General Public License v3.0",
+        "categories": ["Church Management Systems", "Web Apps"]
       },
       "metrics": {
         "stars": 1401,
@@ -7762,7 +7830,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Python",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Translations", "Data and Metadata"]
       },
       "metrics": {
         "stars": 310,
@@ -7785,7 +7854,7 @@
         "display_name": "Tim Morgan",
         "url": "https://github.com/seven1m",
         "avatar_url": "https://avatars.githubusercontent.com/u/669?v=4",
-        "bio": "I \u2764\ufe0f Ruby. I\u2019m also making my own Ruby called Natalie. You know, for fun!",
+        "bio": "I ❤️ Ruby. I’m also making my own Ruby called Natalie. You know, for fun!",
         "location": "Oklahoma, USA",
         "email": "tim@timmorgan.org",
         "website": "https://timmorgan.dev",
@@ -7889,7 +7958,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "C#",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools", "Mobile Apps"]
       },
       "metrics": {
         "stars": 6,
@@ -8010,7 +8080,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Church Presentation System"]
       },
       "metrics": {
         "stars": 111,
@@ -8140,7 +8211,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Vue",
-        "license": "MIT No Attribution"
+        "license": "MIT No Attribution",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 13,
@@ -8231,7 +8303,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Prayer and Devotion", "Web Apps"]
       },
       "metrics": {
         "stars": 4,
@@ -8320,7 +8393,8 @@
         "is_archived": true,
         "is_fork": false,
         "primary_language": "F#",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Prayer and Devotion", "Web Apps"]
       },
       "metrics": {
         "stars": 5,
@@ -8443,7 +8517,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Java",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Church Presentation System"]
       },
       "metrics": {
         "stars": 161,
@@ -8566,7 +8641,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Mobile Apps"]
       },
       "metrics": {
         "stars": 7,
@@ -8646,7 +8722,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "C#",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Church Management Systems"]
       },
       "metrics": {
         "stars": 580,
@@ -8779,7 +8856,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Translations"]
       },
       "metrics": {
         "stars": 9,
@@ -8905,7 +8983,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "C++",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Church Presentation System"]
       },
       "metrics": {
         "stars": 48,
@@ -9020,7 +9099,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT No Attribution"
+        "license": "MIT No Attribution",
+        "categories": ["Messaging and Communication"]
       },
       "metrics": {
         "stars": 13,
@@ -9135,7 +9215,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Python",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 6,
@@ -9256,7 +9337,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Python",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 24,
@@ -9371,7 +9453,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": null,
-        "license": "Creative Commons Attribution Share Alike 4.0 International"
+        "license": "Creative Commons Attribution Share Alike 4.0 International",
+        "categories": ["Data and Metadata", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 221,
@@ -9498,7 +9581,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Data and Metadata", "Bible Study Tools"]
       },
       "metrics": {
         "stars": 7,
@@ -9595,7 +9679,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Study Tools", "Web Apps"]
       },
       "metrics": {
         "stars": 2,
@@ -9686,7 +9771,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "TypeScript",
-        "license": "MIT No Attribution"
+        "license": "MIT No Attribution",
+        "categories": ["Bible Study Tools"]
       },
       "metrics": {
         "stars": 6,
@@ -9801,7 +9887,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Python",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Bible Study Tools", "Mobile Apps"]
       },
       "metrics": {
         "stars": 131,
@@ -9922,7 +10009,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "JavaScript",
-        "license": "MIT License"
+        "license": "MIT License",
+        "categories": ["Bible Translations", "Web Apps"]
       },
       "metrics": {
         "stars": 6,
@@ -10037,7 +10125,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "PHP",
-        "license": "GNU General Public License v3.0"
+        "license": "GNU General Public License v3.0",
+        "categories": ["Hymnals and Songbooks", "Web Apps"]
       },
       "metrics": {
         "stars": 4,
@@ -10111,7 +10200,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Swift",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Data and Metadata","Mobile Apps", "iOS"]
       },
       "metrics": {
         "stars": 0,
@@ -10191,7 +10281,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Scheme",
-        "license": "GNU General Public License v2.0"
+        "license": "GNU General Public License v2.0",
+        "categories": ["Bible Study Tools", "Desktop Apps"]
       },
       "metrics": {
         "stars": 208,
@@ -10306,7 +10397,8 @@
         "is_archived": false,
         "is_fork": false,
         "primary_language": "Jupyter Notebook",
-        "license": "Unknown"
+        "license": "Unknown",
+        "categories": ["Bible Translations", "Data and Metadata"]
       },
       "metrics": {
         "stars": 24,
