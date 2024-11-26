@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import {
   ExternalLink,
   Star,
@@ -11,6 +11,8 @@ import {
   ChevronRight,
   Copy,
   Check,
+  Search,
+  Filter,
 } from 'lucide-react';
 import { PlatformLogo } from './PlatformLogo';
 import type { Repository, OwnerInfo, Metrics } from '../types';
@@ -175,6 +177,18 @@ const RepoCard = ({ repo }: { repo: Repository }) => {
             <ExternalLink size={16} />
           </a>
           <p className="text-sm text-gray-600 mt-2">{repo.metadata.description}</p>
+          {repo.metadata.categories && (
+            <div className="flex flex-wrap gap-2 mt-2">
+              {repo.metadata.categories.map((category) => (
+                <span
+                  key={category}
+                  className="text-xs px-2 py-1 bg-blue-100 text-blue-800 rounded-full"
+                >
+                  {category}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
         <span
           className={`flex items-center gap-1 text-xs px-2 py-1 bg-gray-100 rounded-full ${getPlatformColor(repo.platform)}`}
@@ -244,18 +258,110 @@ const Pagination = ({
   );
 };
 
+const SearchAndFilter = ({
+  searchTerm,
+  onSearchChange,
+  selectedCategories,
+  onCategoryChange,
+  categories,
+}: {
+  searchTerm: string;
+  onSearchChange: (term: string) => void;
+  selectedCategories: string[];
+  onCategoryChange: (category: string) => void;
+  categories: string[];
+}) => {
+  return (
+    <div className="mb-8 space-y-4">
+      <div className="relative">
+        <Search
+          className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+          size={20}
+        />
+        <input
+          type="text"
+          placeholder="Search projects..."
+          value={searchTerm}
+          onChange={(e) => onSearchChange(e.target.value)}
+          className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div>
+        <div className="flex items-center gap-2 mb-2">
+          <Filter size={20} className="text-gray-600" />
+          <span className="font-medium text-gray-700">Categories</span>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          {categories.map((category) => (
+            <button
+              key={category}
+              onClick={() => onCategoryChange(category)}
+              className={`px-3 py-1 rounded-full text-sm ${
+                selectedCategories.includes(category)
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+              }`}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const Dashboard = () => {
   const ITEMS_PER_PAGE = 10;
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
-  const totalPages = Math.ceil(repoData.repositories.length / ITEMS_PER_PAGE);
+  // Extract unique categories from all repositories
+  const allCategories = useMemo(() => {
+    const categories = new Set<string>();
+    repoData.repositories.forEach((repo) => {
+      repo.metadata.categories?.forEach((category) => categories.add(category));
+    });
+    return Array.from(categories).sort();
+  }, []);
+
+  // Filter repositories based on search term and categories
+  const filteredRepos = useMemo(() => {
+    return repoData.repositories.filter((repo) => {
+      const matchesSearch =
+        searchTerm === '' ||
+        repo.metadata.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        repo.metadata.description?.toLowerCase().includes(searchTerm.toLowerCase());
+
+      const matchesCategories =
+        selectedCategories.length === 0 ||
+        selectedCategories.every((category) => repo.metadata.categories?.includes(category));
+
+      return matchesSearch && matchesCategories;
+    });
+  }, [searchTerm, selectedCategories]);
+
+  const totalPages = Math.ceil(filteredRepos.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
-  const currentRepos = repoData.repositories.slice(startIndex, endIndex);
+  const currentRepos = filteredRepos.slice(startIndex, endIndex);
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategories((prev) =>
+      prev.includes(category) ? prev.filter((c) => c !== category) : [...prev, category]
+    );
+    setCurrentPage(1);
+  };
+
+  const handleSearchChange = (term: string) => {
+    setSearchTerm(term);
+    setCurrentPage(1);
   };
 
   return (
@@ -266,22 +372,38 @@ const Dashboard = () => {
             Christian Open Source Projects Dashboard
           </h1>
           <div className="text-sm text-gray-600">
-            Showing {startIndex + 1}-{Math.min(endIndex, repoData.repositories.length)} of{' '}
-            {repoData.repositories.length} repositories
+            Showing {filteredRepos.length ? startIndex + 1 : 0}-
+            {Math.min(endIndex, filteredRepos.length)} of {filteredRepos.length} repositories
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {currentRepos.map((repo, index) => (
-            <RepoCard key={`${repo.metadata.name}-${index}`} repo={repo} />
-          ))}
-        </div>
-
-        <Pagination
-          currentPage={currentPage}
-          totalPages={totalPages}
-          onPageChange={handlePageChange}
+        <SearchAndFilter
+          searchTerm={searchTerm}
+          onSearchChange={handleSearchChange}
+          selectedCategories={selectedCategories}
+          onCategoryChange={handleCategoryChange}
+          categories={allCategories}
         />
+
+        {currentRepos.length > 0 ? (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {currentRepos.map((repo, index) => (
+                <RepoCard key={`${repo.metadata.name}-${index}`} repo={repo} />
+              ))}
+            </div>
+
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          </>
+        ) : (
+          <div className="text-center py-12">
+            <p className="text-gray-600">No repositories found matching your criteria.</p>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -88,6 +88,7 @@ export interface Repository {
     is_fork: boolean;
     primary_language: string | null;
     license: string;
+    categories: string[];
   };
   metrics: Metrics;
   owner_info: OwnerInfo;
